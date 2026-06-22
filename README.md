@@ -5,6 +5,7 @@ The repository includes hands-on implementations of the major physical design st
 
 Designed as a practical learning resource, this repository provides step-by-step examples, commands, design outputs, and documentation to help understand the complete RTL-to-GDSII ASIC implementation flow using OpenLane and OpenROAD.
 
-<img width="361" height="398" alt="Screenshot 2026-06-22 181216" src="https://github.com/user-attachments/assets/c8d411b7-31e8-4c57-8481-16df3dcda91f" />
+<img width="361" height="398" alt="Screenshot 2026-06-22 181216" src="https://github.com/user-attachments/assets/c8d411b7-31e8-4c57-8481-16df3dcda91f" />  <img width="248" height="252" alt="image" src="https://github.com/user-attachments/assets/23f5de7b-e3f8-4bb3-bde0-fca51ebd0462" />
+
 <img width="747" height="196" alt="image" src="https://github.com/user-attachments/assets/de47a44f-f11f-4744-b027-a6f12899014b" />
-<img width="248" height="252" alt="image" src="https://github.com/user-attachments/assets/ba83c20d-8366-4411-b91d-2f65e194dd60" />
+
