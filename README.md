@@ -29,7 +29,6 @@ Replace `<design_name>` with your project name.
 ```bash
 mkdir <design_name>
 ```
-
 ### Step 5: Enter the Design Directory
 
 ```bash
@@ -109,6 +108,44 @@ openlane/
         ├── config.json
         ├── config.tcl
         └── <design_name>.sdc
+```
+
+
+## Part 2: Running the OpenLane Flow
+
+### 1. Launch OpenLane
+
+```bash
+openlane
+```
+
+### 2. Start Interactive Mode
+
+```bash
+flow.tcl -interactive
+```
+
+### 3. Prepare the Design
+
+Replace `top` with your top-level module name.
+
+```bash
+prep -design top
+```
+
+### 4. Execute the Flow
+
+```bash
+run_synthesis              # Logic Synthesis
+run_floorplan              # Floorplanning
+run_placement              # Standard Cell Placement
+run_cts                    # Clock Tree Synthesis
+run_routing                # Global & Detailed Routing
+run_magic                  # Layout Generation
+run_magic_spice_export     # SPICE Netlist Export
+run_magic_drc              # Design Rule Check (DRC)
+run_klayout                # Open Layout in KLayout
+run_lvs                    # Layout Versus Schematic (LVS)
 ```
 
 
