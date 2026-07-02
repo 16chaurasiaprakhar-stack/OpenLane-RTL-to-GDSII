@@ -405,7 +405,7 @@ Designed as a practical learning resource, this repository provides step-by-step
 
 <img width="361" height="398" alt="Screenshot 2026-06-22 181216" src="https://github.com/user-attachments/assets/c8d411b7-31e8-4c57-8481-16df3dcda91f" />  <img width="248" height="252" alt="image" src="https://github.com/user-attachments/assets/23f5de7b-e3f8-4bb3-bde0-fca51ebd0462" />
 
-<img width="747" height="196" alt="image" src="https://github.com/user-attachments/assets/de47a44f-f11f-4744-b027-a6f12899014b" /> <img width="900" height="900" alt="731e0aa9-098e-4925-a4a2-74c2a07de2a0" src="https://github.com/user-attachments/assets/25ff6036-810c-475d-9fa6-dd7a191801b8" />
+<img width="747" height="196" alt="image" src="https://github.com/user-attachments/assets/de47a44f-f11f-4744-b027-a6f12899014b" /> <img width="800" height="500" alt="731e0aa9-098e-4925-a4a2-74c2a07de2a0" src="https://github.com/user-attachments/assets/25ff6036-810c-475d-9fa6-dd7a191801b8" />
 
 
 
