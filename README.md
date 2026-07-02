@@ -153,6 +153,249 @@ run_lvs                    # Layout Versus Schematic (LVS)
 
 
 
+# Part 3: Viewing and Analyzing OpenLane Results
+
+In this section, we will understand how to locate, open, and analyze the generated files after executing the OpenLane flow.
+
+---
+
+## Navigate to the Run Directory
+
+After running the design flow, go to your design's run directory:
+
+```bash
+OpenLaneUser/designs/<design_name>/runs/<RUN_DIRECTORY>/
+```
+
+Inside the run directory, you will find the following folders:
+
+```text
+logs/
+reports/
+results/
+tmp/
+```
+
+---
+
+## Folder Structure
+
+```text
+runs/
+├── logs/
+├── reports/
+├── results/
+└── tmp/
+```
+
+### Important Subdirectories
+
+```text
+logs/
+├── synthesis/
+├── floorplan/
+├── placement/
+├── cts/
+├── routing/
+└── signoff/
+```
+
+---
+
+# 1. Floorplan
+
+Navigate to:
+
+```text
+results/floorplan/
+```
+
+Locate the generated DEF file.
+
+Example:
+
+```text
+top.def
+```
+
+Open it using KLayout:
+
+```bash
+klayout top.def
+```
+
+---
+
+# 2. Placement
+
+Navigate to:
+
+```text
+results/placement/
+```
+
+Copy the generated DEF file (`top.def`) and paste it into the `tmp/` directory where `merged.nom.lef` is located.
+
+Open both files together:
+
+```bash
+klayout top.def merged.nom.lef
+```
+
+---
+
+# 3. Clock Tree Synthesis (CTS)
+
+Navigate to:
+
+```text
+results/cts/
+```
+
+Copy the generated DEF file (`top.def`) and paste it into the `tmp/` directory.
+
+Open it using:
+
+```bash
+klayout top.def merged.nom.lef
+```
+
+---
+
+# 4. Routing
+
+Navigate to:
+
+```text
+results/routing/
+```
+
+Copy the generated DEF file (`top.def`) and paste it into the `tmp/` directory.
+
+Open it using:
+
+```bash
+klayout top.def merged.nom.lef
+```
+
+---
+
+# 5. Signoff
+
+Navigate to:
+
+```text
+results/signoff/
+```
+
+Copy the generated DEF file (`top.def`) and paste it into the `tmp/` directory.
+
+Open it using:
+
+```bash
+klayout top.def merged.nom.lef
+```
+
+---
+
+# Viewing the Final GDSII Layout
+
+Navigate to:
+
+```text
+results/signoff/
+```
+
+Locate the generated GDSII file:
+
+```text
+top.gds
+```
+
+Open it using:
+
+```bash
+klayout top.gds
+```
+
+---
+
+# Viewing Reports
+
+All generated reports are available inside the `reports/` directory.
+
+Navigate to the required report folder and open the report using:
+
+```bash
+vi <report_name>.rpt
+```
+
+### Examples
+
+```bash
+vi 13-cts_sta.summary.rpt
+```
+
+```bash
+vi drc.rpt
+```
+
+```bash
+vi 30-top.lvs.rpt
+```
+
+---
+
+# OpenLane Run Directory Structure
+
+```text
+runs/
+├── logs/
+│   ├── synthesis/
+│   ├── floorplan/
+│   ├── placement/
+│   ├── cts/
+│   ├── routing/
+│   └── signoff/
+│
+├── reports/
+│   ├── synthesis/
+│   ├── floorplan/
+│   ├── placement/
+│   ├── cts/
+│   ├── routing/
+│   └── signoff/
+│
+├── results/
+│   ├── floorplan/
+│   ├── placement/
+│   ├── cts/
+│   ├── routing/
+│   └── signoff/
+│
+└── tmp/
+    └── merged.nom.lef
+```
+
+---
+
+## Quick Summary
+
+| Stage | Folder | Command |
+|--------|--------|---------|
+| Floorplan | `results/floorplan/` | `klayout top.def` |
+| Placement | `results/placement/` | `klayout top.def merged.nom.lef` |
+| CTS | `results/cts/` | `klayout top.def merged.nom.lef` |
+| Routing | `results/routing/` | `klayout top.def merged.nom.lef` |
+| Signoff | `results/signoff/` | `klayout top.def merged.nom.lef` |
+| Final Layout | `results/signoff/` | `klayout top.gds` |
+| Reports | `reports/` | `vi <report_name>.rpt` |
+
+
+
+
+
+
 
 
 
