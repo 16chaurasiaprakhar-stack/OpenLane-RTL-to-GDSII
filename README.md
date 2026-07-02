@@ -156,7 +156,7 @@ run_lvs                    # Layout Versus Schematic (LVS)
 
 
 
-/
+
 
 Designed as a practical learning resource, this repository provides step-by-step examples, commands, design outputs, and documentation to help understand the complete RTL-to-GDSII ASIC implementation flow using OpenLane and OpenROAD.
 
