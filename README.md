@@ -4,7 +4,7 @@ This repository documents the complete ASIC physical design flow using OpenLane,
 The repository includes hands-on implementations of the major physical design stages, including floorplanning, placement, Clock Tree Synthesis (CTS), routing, parasitic extraction, timing analysis, DRC verification, and final GDSII generation. It also demonstrates the use of key design artifacts such as LEF, DEF, Liberty (.lib), SDC, JSON configuration files, and OpenLane configuration files, along with generated reports and layouts.  
 
 
-<img width="300" height="100" alt="731e0aa9-098e-4925-a4a2-74c2a07de2a0" src="https://github.com/user-attachments/assets/25ff6036-810c-475d-9fa6-dd7a191801b8" />
+<img width="200" height="100" alt="731e0aa9-098e-4925-a4a2-74c2a07de2a0" src="https://github.com/user-attachments/assets/25ff6036-810c-475d-9fa6-dd7a191801b8" />
 
 ## 📁 Creating a New Design Directory in OpenLane
 
