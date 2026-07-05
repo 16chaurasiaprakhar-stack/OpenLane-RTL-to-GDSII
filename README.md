@@ -207,7 +207,7 @@ tmp/
 
 ---
 
-## Folder Structure
+#### Folder Structure
 
 ```text
 runs/
@@ -217,7 +217,7 @@ runs/
 └── tmp/
 ```
 
-### Important Subdirectories
+#### Important Subdirectories
 
 ```text
 logs/
@@ -231,7 +231,7 @@ logs/
 
 ---
 
-# 1. Floorplan
+### 1. Floorplan
 
 Navigate to:
 
@@ -255,7 +255,7 @@ klayout top.def
 
 ---
 
-# 2. Placement
+### 2. Placement
 
 Navigate to:
 
@@ -273,7 +273,7 @@ klayout top.def merged.nom.lef
 
 ---
 
-# 3. Clock Tree Synthesis (CTS)
+### 3. Clock Tree Synthesis (CTS)
 
 Navigate to:
 
@@ -291,7 +291,7 @@ klayout top.def merged.nom.lef
 
 ---
 
-# 4. Routing
+### 4. Routing
 
 Navigate to:
 
@@ -309,7 +309,7 @@ klayout top.def merged.nom.lef
 
 ---
 
-# 5. Signoff
+### 5. Signoff
 
 Navigate to:
 
@@ -327,7 +327,7 @@ klayout top.def merged.nom.lef
 
 ---
 
-# Viewing the Final GDSII Layout
+## Viewing the Final GDSII Layout
 
 Navigate to:
 
