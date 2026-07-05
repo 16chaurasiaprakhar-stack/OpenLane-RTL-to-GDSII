@@ -126,7 +126,7 @@ gvim <design_name>.sdc
 
 ---
 
-## 📂 Final Directory Structure
+#### 📂 Final Directory Structure
 
 ```text
 openlane/
@@ -182,7 +182,7 @@ run_lvs                    # Layout Versus Schematic (LVS)
 
 
 
-# Part 3: Viewing and Analyzing OpenLane Results
+## Part 3: Viewing and Analyzing OpenLane Results
 
 In this section, we will understand how to locate, open, and analyze the generated files after executing the OpenLane flow.
 
