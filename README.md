@@ -6,6 +6,29 @@ The repository includes hands-on implementations of the major physical design st
 
 <img width="200" height="100" alt="731e0aa9-098e-4925-a4a2-74c2a07de2a0" src="https://github.com/user-attachments/assets/25ff6036-810c-475d-9fa6-dd7a191801b8" />
 
+RTL
+ │
+ ▼
+Logic Synthesis
+ │
+ ▼
+Floorplanning
+ │
+ ▼
+Placement
+ │
+ ▼
+Clock Tree Synthesis
+ │
+ ▼
+Routing
+ │
+ ▼
+DRC/LVS
+ │
+ ▼
+GDSII
+
 ## 📁 Creating a New Design Directory in OpenLane
 
 Follow these steps to create a new design workspace inside the `OpenLane` environment.
@@ -395,8 +418,28 @@ runs/
 | Reports | `reports/` | `vi <report_name>.rpt` |
 
 
+## Generated Design Files
+
+| File | Description |
+|------|-------------|
+| DEF | Physical placement |
+| LEF | Cell abstracts |
+| GDSII | Final layout |
+| SPEF | Parasitics |
+| Liberty | Timing library |
+| SDC | Timing constraints |
 
 
+### Tools Used
+
+- OpenLane
+- OpenROAD
+- Yosys
+- Magic
+- KLayout
+- Netgen
+- Graphviz
+- Verilog HDL
 
 
 
