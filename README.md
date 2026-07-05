@@ -17,6 +17,9 @@ The repository includes hands-on implementations of the major physical design st
 - Graphviz
 - Verilog HDL
 
+
+### FLOW
+
 ```text
         Verilog RTL
              │
@@ -441,19 +444,6 @@ runs/
 | SPEF | Parasitics |
 | Liberty | Timing library |
 | SDC | Timing constraints |
-
-
-### *Tools Used*
-
-- OpenLane
-- OpenROAD
-- Yosys
-- Magic
-- KLayout
-- Netgen
-- Graphviz
-- Verilog HDL
-
 
 
 
