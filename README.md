@@ -6,28 +6,31 @@ The repository includes hands-on implementations of the major physical design st
 
 <img width="200" height="100" alt="731e0aa9-098e-4925-a4a2-74c2a07de2a0" src="https://github.com/user-attachments/assets/25ff6036-810c-475d-9fa6-dd7a191801b8" />
 
-RTL
- │
- ▼
-Logic Synthesis
- │
- ▼
-Floorplanning
- │
- ▼
-Placement
- │
- ▼
-Clock Tree Synthesis
- │
- ▼
-Routing
- │
- ▼
-DRC/LVS
- │
- ▼
-GDSII
+
+```text
+        Verilog RTL
+             │
+             ▼
+     Logic Synthesis
+             │
+             ▼
+      Floorplanning
+             │
+             ▼
+         Placement
+             │
+             ▼
+  Clock Tree Synthesis
+             │
+             ▼
+          Routing
+             │
+             ▼
+   DRC / LVS Verification
+             │
+             ▼
+      GDSII Generation
+```
 
 ## 📁 Creating a New Design Directory in OpenLane
 
