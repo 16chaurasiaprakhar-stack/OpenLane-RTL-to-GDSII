@@ -188,7 +188,7 @@ In this section, we will understand how to locate, open, and analyze the generat
 
 ---
 
-## Navigate to the Run Directory
+#### *Navigate to the Run Directory*
 
 After running the design flow, go to your design's run directory:
 
@@ -433,7 +433,7 @@ runs/
 | SDC | Timing constraints |
 
 
-### Tools Used
+### *Tools Used*
 
 - OpenLane
 - OpenROAD
