@@ -32,7 +32,7 @@ The repository includes hands-on implementations of the major physical design st
       GDSII Generation
 ```
 
-## 📁 Creating a New Design Directory in OpenLane
+##  Creating a New Design Directory in OpenLane
 
 Follow these steps to create a new design workspace inside the `OpenLane` environment.
 
@@ -126,7 +126,7 @@ gvim <design_name>.sdc
 
 ---
 
-#### 📂 Final Directory Structure
+####  Final Directory Structure
 
 ```text
 openlane/
