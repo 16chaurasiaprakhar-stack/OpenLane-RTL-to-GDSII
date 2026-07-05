@@ -327,7 +327,7 @@ klayout top.def merged.nom.lef
 
 ---
 
-## Viewing the Final GDSII Layout
+#### Viewing the Final GDSII Layout
 
 Navigate to:
 
@@ -349,7 +349,7 @@ klayout top.gds
 
 ---
 
-# Viewing Reports
+#### Viewing Reports
 
 All generated reports are available inside the `reports/` directory.
 
@@ -359,7 +359,7 @@ Navigate to the required report folder and open the report using:
 vi <report_name>.rpt
 ```
 
-### Examples
+##### Examples
 
 ```bash
 vi 13-cts_sta.summary.rpt
@@ -375,7 +375,7 @@ vi 30-top.lvs.rpt
 
 ---
 
-# OpenLane Run Directory Structure
+### OpenLane Run Directory Structure
 
 ```text
 runs/
