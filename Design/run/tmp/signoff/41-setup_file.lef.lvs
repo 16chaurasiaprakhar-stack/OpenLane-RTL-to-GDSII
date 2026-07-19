@@ -1,0 +1,1 @@
+lvs {/openlane/designs/openlane_design/runs/RUN_2026.07.01_11.09.21/results/signoff/top.spice top} {/openlane/designs/openlane_design/runs/RUN_2026.07.01_11.09.21/tmp/signoff/38-top.pnl.v top} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/openlane_design/runs/RUN_2026.07.01_11.09.21/logs/signoff/41-top.lef.lvs.log -json
