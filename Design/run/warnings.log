@@ -3,4 +3,4 @@
 [WARNING]: Module sky130_ef_sc_hd__decap_12 blackboxed during sta
 [WARNING]: Module sky130_fd_sc_hd__fill_1 blackboxed during sta
 [WARNING]: Module sky130_fd_sc_hd__fill_2 blackboxed during sta
-[WARNING]: 'runs/RUN_2026.07.01_11.09.21/results/signoff/top.klayout.gds' wasn't found. Skipping GDS XOR.
+[WARNING]: 'runs/RUN_2026.07.01_11.09.21/results/signoff/top.klayout.gds' wasn't found. Skipping GDS XOR.   
