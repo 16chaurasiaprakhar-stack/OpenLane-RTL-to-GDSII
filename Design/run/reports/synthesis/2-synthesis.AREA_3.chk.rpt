@@ -1,0 +1,5 @@
+
+68. Executing CHECK pass (checking for obvious problems).
+Checking module top...
+Warning: Wire top.\uart_tx is used but has no driver.
+Found and reported 1 problems.

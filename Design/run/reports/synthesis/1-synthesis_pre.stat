@@ -1,0 +1,36 @@
+
+55. Printing statistics.
+
+=== top ===
+
+   Number of wires:              11507
+   Number of wire bits:          15892
+   Number of public wires:         250
+   Number of public wire bits:    4275
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              15609
+     $_ANDNOT_                    3627
+     $_AND_                        339
+     $_DFFE_PP0P_                  350
+     $_DFFE_PP1P_                    5
+     $_DFFE_PP_                   3286
+     $_DFF_PP0_                      9
+     $_DFF_PP1_                      5
+     $_DFF_P_                       59
+     $_MUX_                       2991
+     $_NAND_                       277
+     $_NOR_                        184
+     $_NOT_                        199
+     $_ORNOT_                      218
+     $_OR_                        3367
+     $_SDFFCE_PN0P_                 34
+     $_SDFFCE_PP0P_                  1
+     $_SDFFE_PP0P_                 127
+     $_SDFFE_PP1P_                   5
+     $_SDFF_PP0_                    60
+     $_SDFF_PP1_                     7
+     $_XNOR_                       122
+     $_XOR_                        337
+
