@@ -1,0 +1,5 @@
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/openlane_design/src/sram.v:107
+Warning: Replacing memory \mem with list of registers. See /openlane/designs/openlane_design/src/sram.v:107
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire top.\uart_tx is used but has no driver.
+Warnings: 2 unique messages, 3 total
