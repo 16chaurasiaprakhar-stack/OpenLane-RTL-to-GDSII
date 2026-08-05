@@ -1,0 +1,241 @@
+%Warning-EOFNEWLINE: /openlane/designs/openlane_design/src/rom.v:212:10: Missing newline at end of file (POSIX 3.206).
+                                                                       : ... Suggest add newline.
+  212 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-EOFNEWLINE: /openlane/designs/openlane_design/src/axi_lite_interconnect.v:227:10: Missing newline at end of file (POSIX 3.206).
+                                                                                         : ... Suggest add newline.
+  227 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/openlane_design/src/uart_axi.v:250:10: Missing newline at end of file (POSIX 3.206).
+                                                                            : ... Suggest add newline.
+  250 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/openlane_design/src/uart_rx.v:143:10: Missing newline at end of file (POSIX 3.206).
+                                                                           : ... Suggest add newline.
+  143 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/openlane_design/src/axi_decoder.v:165:10: Missing newline at end of file (POSIX 3.206).
+                                                                               : ... Suggest add newline.
+  165 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/openlane_design/src/uart_tx.v:124:10: Missing newline at end of file (POSIX 3.206).
+                                                                           : ... Suggest add newline.
+  124 | endmodule
+      |          ^
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:71:10: Cell pin connected by name with empty reference: 'mem_la_read'
+   71 |         .mem_la_read    (),
+      |          ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:72:10: Cell pin connected by name with empty reference: 'mem_la_write'
+   72 |         .mem_la_write   (),
+      |          ^~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:73:10: Cell pin connected by name with empty reference: 'mem_la_addr'
+   73 |         .mem_la_addr    (),
+      |          ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:74:10: Cell pin connected by name with empty reference: 'mem_la_wdata'
+   74 |         .mem_la_wdata   (),
+      |          ^~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:75:10: Cell pin connected by name with empty reference: 'mem_la_wstrb'
+   75 |         .mem_la_wstrb   (),
+      |          ^~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:76:10: Cell pin connected by name with empty reference: 'pcpi_valid'
+   76 |         .pcpi_valid     (),
+      |          ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:77:10: Cell pin connected by name with empty reference: 'pcpi_insn'
+   77 |         .pcpi_insn      (),
+      |          ^~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:78:10: Cell pin connected by name with empty reference: 'pcpi_rs1'
+   78 |         .pcpi_rs1       (),
+      |          ^~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:79:10: Cell pin connected by name with empty reference: 'pcpi_rs2'
+   79 |         .pcpi_rs2       (),
+      |          ^~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:85:10: Cell pin connected by name with empty reference: 'eoi'
+   85 |         .eoi            (),
+      |          ^~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:86:10: Cell pin connected by name with empty reference: 'trap'
+   86 |         .trap           (),            
+      |          ^~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:87:10: Cell pin connected by name with empty reference: 'trace_valid'
+   87 |         .trace_valid    (),
+      |          ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/openlane_design/src/top.v:88:10: Cell pin connected by name with empty reference: 'trace_data'
+   88 |         .trace_data     ()
+      |          ^~~~~~~~~~
+%Warning-WIDTHEXPAND: /openlane/designs/openlane_design/src/uart_tx.v:84:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 10 bits.
+                                                                           : ... In instance top.u_uart.u_tx
+   84 |                     if (clk_cnt == CLKS_PER_BIT - 1) begin
+      |                                 ^~
+%Warning-WIDTHEXPAND: /openlane/designs/openlane_design/src/uart_tx.v:95:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 10 bits.
+                                                                           : ... In instance top.u_uart.u_tx
+   95 |                     if (clk_cnt == CLKS_PER_BIT - 1) begin
+      |                                 ^~
+%Warning-WIDTHEXPAND: /openlane/designs/openlane_design/src/uart_tx.v:110:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 10 bits.
+                                                                            : ... In instance top.u_uart.u_tx
+  110 |                     if (clk_cnt == CLKS_PER_BIT - 1) begin
+      |                                 ^~
+%Warning-WIDTHEXPAND: /openlane/designs/openlane_design/src/uart_rx.v:97:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 10 bits.
+                                                                           : ... In instance top.u_uart.u_rx
+   97 |                     if (clk_cnt == CLKS_HALF_BIT - 1) begin
+      |                                 ^~
+%Warning-WIDTHEXPAND: /openlane/designs/openlane_design/src/uart_rx.v:111:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 10 bits.
+                                                                            : ... In instance top.u_uart.u_rx
+  111 |                     if (clk_cnt == CLKS_PER_BIT - 1) begin
+      |                                 ^~
+%Warning-WIDTHEXPAND: /openlane/designs/openlane_design/src/uart_rx.v:125:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'clk_cnt' generates 10 bits.
+                                                                            : ... In instance top.u_uart.u_rx
+  125 |                     if (clk_cnt == CLKS_PER_BIT - 1) begin
+      |                                 ^~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/top.v:33:28: Signal is not used: 'cpu_mem_instr'
+                                                                        : ... In instance top
+   33 |     (* keep *) wire        cpu_mem_instr;
+      |                            ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/top.v:118:17: Signal is not used: 'm_axi_bresp'
+                                                                         : ... In instance top
+  118 |     wire [ 1:0] m_axi_bresp;
+      |                 ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/top.v:127:17: Signal is not used: 'm_axi_rresp'
+                                                                         : ... In instance top
+  127 |     wire [ 1:0] m_axi_rresp;
+      |                 ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/rom.v:28:19: Signal is not used: 's_axi_awaddr'
+                                                                        : ... In instance top.u_rom
+   28 |     input  [31:0] s_axi_awaddr,
+      |                   ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/rom.v:33:19: Signal is not used: 's_axi_wdata'
+                                                                        : ... In instance top.u_rom
+   33 |     input  [31:0] s_axi_wdata,
+      |                   ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/rom.v:34:19: Signal is not used: 's_axi_wstrb'
+                                                                        : ... In instance top.u_rom
+   34 |     input  [ 3:0] s_axi_wstrb,
+      |                   ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/rom.v:44:19: Bits of signal are not used: 's_axi_araddr'[31:13,1:0]
+                                                                        : ... In instance top.u_rom
+   44 |     input  [31:0] s_axi_araddr,
+      |                   ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/uart_axi.v:30:19: Signal is not used: 's_axi_awaddr'
+                                                                             : ... In instance top.u_uart
+   30 |     input  [31:0] s_axi_awaddr,
+      |                   ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/uart_axi.v:36:19: Bits of signal are not used: 's_axi_wstrb'[3]
+                                                                             : ... In instance top.u_uart
+   36 |     input  [ 3:0] s_axi_wstrb,
+      |                   ^~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/uart_axi.v:46:19: Bits of signal are not used: 's_axi_araddr'[31:4]
+                                                                             : ... In instance top.u_uart
+   46 |     input  [31:0] s_axi_araddr,
+      |                   ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/sram.v:47:19: Bits of signal are not used: 's_axi_araddr'[31:8,1:0]
+                                                                         : ... In instance top.u_sram
+   47 |     input  [31:0] s_axi_araddr,
+      |                   ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/sram.v:74:16: Bits of signal are not used: 'aw_addr_r'[31:8,1:0]
+                                                                         : ... In instance top.u_sram
+   74 |     reg [31:0] aw_addr_r;
+      |                ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:181:13: Signal is not used: 'dbg_insn_addr'
+                                                                              : ... In instance top.u_cpu
+  181 |  reg [31:0] dbg_insn_addr;
+      |             ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:183:7: Signal is not used: 'dbg_mem_valid'
+                                                                             : ... In instance top.u_cpu
+  183 |  wire dbg_mem_valid = mem_valid;
+      |       ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:184:7: Signal is not used: 'dbg_mem_instr'
+                                                                             : ... In instance top.u_cpu
+  184 |  wire dbg_mem_instr = mem_instr;
+      |       ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:185:7: Signal is not used: 'dbg_mem_ready'
+                                                                             : ... In instance top.u_cpu
+  185 |  wire dbg_mem_ready = mem_ready;
+      |       ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:186:14: Signal is not used: 'dbg_mem_addr'
+                                                                              : ... In instance top.u_cpu
+  186 |  wire [31:0] dbg_mem_addr  = mem_addr;
+      |              ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:187:14: Signal is not used: 'dbg_mem_wdata'
+                                                                              : ... In instance top.u_cpu
+  187 |  wire [31:0] dbg_mem_wdata = mem_wdata;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:188:14: Signal is not used: 'dbg_mem_wstrb'
+                                                                              : ... In instance top.u_cpu
+  188 |  wire [ 3:0] dbg_mem_wstrb = mem_wstrb;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:189:14: Signal is not used: 'dbg_mem_rdata'
+                                                                              : ... In instance top.u_cpu
+  189 |  wire [31:0] dbg_mem_rdata = mem_rdata;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:375:7: Signal is not used: 'mem_busy'
+                                                                             : ... In instance top.u_cpu
+  375 |  wire mem_busy = |{mem_do_prefetch, mem_do_rinst, mem_do_rdata, mem_do_wdata};
+      |       ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:696:14: Signal is not used: 'dbg_rs1val'
+                                                                              : ... In instance top.u_cpu
+  696 |   reg [31:0] dbg_rs1val;
+      |              ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:697:14: Signal is not used: 'dbg_rs2val'
+                                                                              : ... In instance top.u_cpu
+  697 |   reg [31:0] dbg_rs2val;
+      |              ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:698:7: Signal is not used: 'dbg_rs1val_valid'
+                                                                             : ... In instance top.u_cpu
+  698 |   reg dbg_rs1val_valid;
+      |       ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:699:7: Signal is not used: 'dbg_rs2val_valid'
+                                                                             : ... In instance top.u_cpu
+  699 |   reg dbg_rs2val_valid;
+      |       ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:769:6: Signal is not used: 'dbg_valid_insn'
+                                                                             : ... In instance top.u_cpu
+  769 |  reg dbg_valid_insn;
+      |      ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/openlane_design/src/picorv32.v:1184:15: Signal is not used: 'dbg_ascii_state'
+                                                                               : ... In instance top.u_cpu
+ 1184 |   reg [127:0] dbg_ascii_state;
+      |               ^~~~~~~~~~~~~~~
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1406:20: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1406 |   set_mem_do_rinst = 0;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1407:20: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1407 |   set_mem_do_rdata = 0;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1408:20: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1408 |   set_mem_do_wdata = 0;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1440:20: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1440 |   next_irq_pending = ENABLE_IRQ ? irq_pending & LATCHED_IRQ : 'bx;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1495:16: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1495 |     current_pc = reg_next_pc;
+      |                ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1500:18: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1500 |       current_pc = latched_store ? (latched_stalu ? alu_out_q : reg_out) & ~1 : reg_next_pc;
+      |                  ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1819:24: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1819 |       set_mem_do_rinst = 1;
+      |                        ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1870:24: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1870 |       set_mem_do_wdata = 1;
+      |                        ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1898:24: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1898 |       set_mem_do_rdata = 1;
+      |                        ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1474:21: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1474 |    next_irq_pending = 0;
+      |                     ^
+%Warning-BLKSEQ: /openlane/designs/openlane_design/src/picorv32.v:1974:14: Blocking assignment '=' in sequential logic process
+                                                                         : ... Suggest using delayed assignment '<='
+ 1974 |   current_pc = 'bx;
+      |              ^
