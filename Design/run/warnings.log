@@ -1,4 +1,4 @@
-[WARNING]: 63 warnings found by linter
+[WARNING]:  warnings found by linter
 [WARNING]: Module sky130_fd_sc_hd__tapvpwrvgnd_1 blackboxed during sta
 [WARNING]: Module sky130_ef_sc_hd__decap_12 blackboxed during sta
 [WARNING]: Module sky130_fd_sc_hd__fill_1 blackboxed during sta
