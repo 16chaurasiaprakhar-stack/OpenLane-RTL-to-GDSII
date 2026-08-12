@@ -1874,7 +1874,7 @@ NETS 380 ;
     - net7 ( input7 X ) ( _288_ B ) ( _287_ A2 ) + USE SIGNAL ;
     - net8 ( input8 X ) ( _293_ B ) ( _292_ A2 ) + USE SIGNAL ;
     - net9 ( input9 X ) ( _299_ B ) ( _297_ A2 ) + USE SIGNAL ;
-    - p ( PIN p ) ( output35 X ) + USE SIGNAL ;
+    - p ( PIN p ) ( output35 X ) + USE SIGNAL ; 
     - rst ( PIN rst ) ( input1 A ) + USE SIGNAL ;
     - tcmp.z ( _445_ Q ) ( _215_ C ) ( _214_ B1 ) + USE SIGNAL ;
     - x[0] ( PIN x[0] ) ( input2 A ) + USE SIGNAL ;
