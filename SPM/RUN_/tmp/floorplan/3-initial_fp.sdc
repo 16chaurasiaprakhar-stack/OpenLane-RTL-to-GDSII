@@ -89,4 +89,4 @@ set_timing_derate -late 1.0500
 # Design Rules
 ###############################################################################
 set_max_transition 0.7500 [current_design]
-set_max_fanout 10.0000 [current_design]
+set_max_fanout 10.0000 [current_design] 
