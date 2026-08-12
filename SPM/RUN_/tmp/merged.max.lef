@@ -14553,7 +14553,7 @@ MACRO sky130_fd_sc_hd__clkinv_4
     PORT
       LAYER li1 ;
         RECT 0.445 1.065 2.660 1.290 ;
-    END
+    END 
   END A
   PIN VGND
     DIRECTION INOUT ;
