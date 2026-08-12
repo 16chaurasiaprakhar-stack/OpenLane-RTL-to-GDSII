@@ -548,7 +548,7 @@ COMPONENTS 507 ;
     - input23 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 89240 97920 ) FN ;
     - input24 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 13800 97920 ) N ;
     - input25 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 91080 97920 ) FN ;
-    - input26 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 93380 97920 ) FN ;
+    - input26 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 93380 97920 ) FN ; 
     - input27 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 16560 97920 ) N ;
     - input28 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 19320 97920 ) FN ;
     - input29 sky130_fd_sc_hd__buf_1 + SOURCE TIMING + PLACED ( 22080 97920 ) N ;
