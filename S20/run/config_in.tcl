@@ -1,4 +1,3 @@
-set ::env(PDK) "sky130A"
 set ::env(PDKPATH) "/openlane/pdks/sky130A"
 set ::env(STD_CELL_LIBRARY) "sky130_fd_sc_hd"
 set ::env(SCLPATH) "/openlane/pdks/sky130A/sky130_fd_sc_hd"
