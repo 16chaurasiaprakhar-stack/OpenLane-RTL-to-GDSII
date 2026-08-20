@@ -1,0 +1,1 @@
+lvs {/openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/results/signoff/salsa20.spice salsa20} {/openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/tmp/signoff/39-salsa20.pnl.v salsa20} /openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/logs/signoff/42-salsa20.lef.lvs.log -json
