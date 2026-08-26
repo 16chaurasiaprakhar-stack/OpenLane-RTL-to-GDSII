@@ -73,7 +73,7 @@
 [INFO]: Created metrics report at 'salsa20/runs/RUN_2026.07.11_07.13.07/reports/metrics.csv'.
 [WARNING]: There are max slew violations in the design at the typical corner. Please refer to 'salsa20/runs/RUN_2026.07.11_07.13.07/reports/signoff/35-rcx_sta.checks.rpt'.
 [WARNING]: There are max fanout violations in the design at the typical corner. Please refer to 'salsa20/runs/RUN_2026.07.11_07.13.07/reports/signoff/35-rcx_sta.checks.rpt'.
-[INFO]: There are no hold violations in the design at the typical corner.
+[INFO]: There are no hold violations in the design at the typical corner. 
 [INFO]: There are no setup violations in the design at the typical corner.
 [SUCCESS]: Flow complete.    
 [INFO]: Note that the following warnings have been generated:
