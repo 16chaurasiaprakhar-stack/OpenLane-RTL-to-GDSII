@@ -1,0 +1,19 @@
+Design Name: salsa20
+Run Directory: /openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/logs/signoff/42-salsa20.lef.lvs.log
+Number of nets: 29452                      |Number of nets: 29452                      
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/logs/signoff/44-arc.log
+Pin violations: 48
+Net violations: 48
