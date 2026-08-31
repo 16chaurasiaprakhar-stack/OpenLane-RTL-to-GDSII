@@ -1,0 +1,28 @@
+
+47. Printing statistics.
+
+=== salsa20 ===
+
+   Number of wires:              12381
+   Number of wire bits:          17650
+   Number of public wires:         159
+   Number of public wire bits:    5428
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              17448
+     $_ANDNOT_                    4971
+     $_AND_                        484
+     $_DFFE_PP_                      1
+     $_DFF_P_                        5
+     $_MUX_                       1288
+     $_NAND_                       596
+     $_NOR_                        646
+     $_NOT_                        781
+     $_ORNOT_                      277
+     $_OR_                        1691
+     $_SDFFE_PN0P_                3669
+     $_SDFF_PN0_                     2
+     $_XNOR_                       727
+     $_XOR_                       2310
+
