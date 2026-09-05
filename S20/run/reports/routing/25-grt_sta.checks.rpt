@@ -4,6 +4,8 @@ report_checks -unconstrained
 ===========================================================================
 ======================= Typical Corner ===================================
 
+===========================================================================
+
 Startpoint: address[2] (input port clocked by clk)
 Endpoint: read_data[18] (output port clocked by clk)
 Path Group: clk
