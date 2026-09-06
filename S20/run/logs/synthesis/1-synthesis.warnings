@@ -1,0 +1,35 @@
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire salsa20.\read_data [31] is used but has no driver.
+Warning: Wire salsa20.\read_data [30] is used but has no driver.
+Warning: Wire salsa20.\read_data [29] is used but has no driver.
+Warning: Wire salsa20.\read_data [28] is used but has no driver.
+Warning: Wire salsa20.\read_data [27] is used but has no driver.
+Warning: Wire salsa20.\read_data [26] is used but has no driver.
+Warning: Wire salsa20.\read_data [25] is used but has no driver.
+Warning: Wire salsa20.\read_data [24] is used but has no driver.
+Warning: Wire salsa20.\read_data [23] is used but has no driver.
+Warning: Wire salsa20.\read_data [22] is used but has no driver.
+Warning: Wire salsa20.\read_data [21] is used but has no driver.
+Warning: Wire salsa20.\read_data [20] is used but has no driver.
+Warning: Wire salsa20.\read_data [19] is used but has no driver.
+Warning: Wire salsa20.\read_data [18] is used but has no driver.
+Warning: Wire salsa20.\read_data [17] is used but has no driver.
+Warning: Wire salsa20.\read_data [16] is used but has no driver.
+Warning: Wire salsa20.\read_data [15] is used but has no driver.
+Warning: Wire salsa20.\read_data [14] is used but has no driver.
+Warning: Wire salsa20.\read_data [13] is used but has no driver.
+Warning: Wire salsa20.\read_data [12] is used but has no driver.
+Warning: Wire salsa20.\read_data [11] is used but has no driver.
+Warning: Wire salsa20.\read_data [10] is used but has no driver.
+Warning: Wire salsa20.\read_data [9] is used but has no driver.
+Warning: Wire salsa20.\read_data [8] is used but has no driver.
+Warning: Wire salsa20.\read_data [7] is used but has no driver.
+Warning: Wire salsa20.\read_data [6] is used but has no driver.
+Warning: Wire salsa20.\read_data [5] is used but has no driver.
+Warning: Wire salsa20.\read_data [4] is used but has no driver.
+Warning: Wire salsa20.\read_data [3] is used but has no driver.
+Warning: Wire salsa20.\read_data [2] is used but has no driver.
+Warning: Wire salsa20.\read_data [1] is used but has no driver.
+Warning: Wire salsa20.\read_data [0] is used but has no driver.
+Warning: Wire salsa20.\error is used but has no driver.
+Warnings: 33 unique messages, 33 total
