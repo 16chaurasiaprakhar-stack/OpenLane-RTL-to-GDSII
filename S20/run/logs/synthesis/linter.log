@@ -1,0 +1,209 @@
+%Warning-UNUSEDPARAM: /openlane/designs/salsa20/src/salsa20.v:1479:13: Parameter is not used: 'STATUS_READY_BIT'
+                                                                     : ... In instance salsa20
+ 1479 |   parameter STATUS_READY_BIT = 0;
+      |             ^~~~~~~~~~~~~~~~
+                      ... For warning description see https://verilator.org/warn/UNUSEDPARAM?v=5.009
+                      ... Use "/* verilator lint_off UNUSEDPARAM */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1607:16: Signal is not driven, nor used: 'data_out0_new'
+                                                                      : ... In instance salsa20
+ 1607 |   reg [31 : 0] data_out0_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1609:16: Signal is not driven, nor used: 'data_out1_new'
+                                                                      : ... In instance salsa20
+ 1609 |   reg [31 : 0] data_out1_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1611:16: Signal is not driven, nor used: 'data_out2_new'
+                                                                      : ... In instance salsa20
+ 1611 |   reg [31 : 0] data_out2_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1613:16: Signal is not driven, nor used: 'data_out3_new'
+                                                                      : ... In instance salsa20
+ 1613 |   reg [31 : 0] data_out3_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1615:16: Signal is not driven, nor used: 'data_out4_new'
+                                                                      : ... In instance salsa20
+ 1615 |   reg [31 : 0] data_out4_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1617:16: Signal is not driven, nor used: 'data_out5_new'
+                                                                      : ... In instance salsa20
+ 1617 |   reg [31 : 0] data_out5_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1619:16: Signal is not driven, nor used: 'data_out6_new'
+                                                                      : ... In instance salsa20
+ 1619 |   reg [31 : 0] data_out6_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1621:16: Signal is not driven, nor used: 'data_out7_new'
+                                                                      : ... In instance salsa20
+ 1621 |   reg [31 : 0] data_out7_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1623:16: Signal is not driven, nor used: 'data_out8_new'
+                                                                      : ... In instance salsa20
+ 1623 |   reg [31 : 0] data_out8_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1625:16: Signal is not driven, nor used: 'data_out9_new'
+                                                                      : ... In instance salsa20
+ 1625 |   reg [31 : 0] data_out9_new;
+      |                ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1627:16: Signal is not driven, nor used: 'data_out10_new'
+                                                                      : ... In instance salsa20
+ 1627 |   reg [31 : 0] data_out10_new;
+      |                ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1629:16: Signal is not driven, nor used: 'data_out11_new'
+                                                                      : ... In instance salsa20
+ 1629 |   reg [31 : 0] data_out11_new;
+      |                ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1631:16: Signal is not driven, nor used: 'data_out12_new'
+                                                                      : ... In instance salsa20
+ 1631 |   reg [31 : 0] data_out12_new;
+      |                ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1633:16: Signal is not driven, nor used: 'data_out13_new'
+                                                                      : ... In instance salsa20
+ 1633 |   reg [31 : 0] data_out13_new;
+      |                ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1635:16: Signal is not driven, nor used: 'data_out14_new'
+                                                                      : ... In instance salsa20
+ 1635 |   reg [31 : 0] data_out14_new;
+      |                ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:1637:16: Signal is not driven, nor used: 'data_out15_new'
+                                                                      : ... In instance salsa20
+ 1637 |   reg [31 : 0] data_out15_new;
+      |                ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/salsa20/src/salsa20.v:149:42: Bits of signal are not used: 'rounds'[0]
+                                                                     : ... In instance salsa20.core
+  149 |                    input wire [4 : 0]    rounds,
+      |                                          ^~~~~~
+%Warning-UNUSEDPARAM: /openlane/designs/salsa20/src/salsa20.v:167:13: Parameter is not used: 'NUM_ROUNDS'
+                                                                    : ... In instance salsa20.core
+  167 |   parameter NUM_ROUNDS = 4'h8;
+      |             ^~~~~~~~~~
+%Warning-CASEINCOMPLETE: /openlane/designs/salsa20/src/salsa20.v:1336:7: Case values incompletely covered (example pattern 0x5)
+ 1336 |       case (salsa20_ctrl_reg)
+      |       ^~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state0' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state1' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state2' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state3' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state4' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state5' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state6' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state7' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state8' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state9' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state10' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state11' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state12' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state13' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state14' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.msb_block_state15' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state0' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state1' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state2' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state3' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state4' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state5' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state6' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state7' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state8' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state9' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state10' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state11' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state12' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state13' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state14' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
+%Warning-LATCH: /openlane/designs/salsa20/src/salsa20.v:692:3: Latch inferred for signal 'salsa20.core.data_out_logic.lsb_block_state15' (not all control paths of combinational always assign a value)
+                                                             : ... Suggest use of always_latch for intentional latches
+  692 |   always @*
+      |   ^~~~~~
