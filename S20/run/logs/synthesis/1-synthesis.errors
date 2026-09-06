@@ -1,0 +1,7 @@
+     2/65: $4\tmp_error[0:0]
+     3/65: { $3\ctrl_we[0:0] $3\tmp_error[0:0] $3\data_in15_we[0:0] $3\data_in14_we[0:0] $3\data_in13_we[0:0] $3\data_in12_we[0:0] $3\data_in11_we[0:0] $3\data_in10_we[0:0] $3\data_in9_we[0:0] $3\data_in8_we[0:0] $3\data_in7_we[0:0] $3\data_in6_we[0:0] $3\data_in5_we[0:0] $3\data_in4_we[0:0] $3\data_in3_we[0:0] $3\data_in2_we[0:0] $3\data_in1_we[0:0] $3\data_in0_we[0:0] $3\iv1_we[0:0] $3\iv0_we[0:0] $3\key7_we[0:0] $3\key6_we[0:0] $3\key5_we[0:0] $3\key4_we[0:0] $3\key3_we[0:0] $3\key2_we[0:0] $3\key1_we[0:0] $3\key0_we[0:0] $3\rounds_we[0:0] $3\keylen_we[0:0] }
+     4/65: $2\tmp_error[0:0]
+    35/65: $1\tmp_error[0:0]
+No latch inferred for signal `\salsa20.\tmp_error' from process `\salsa20.$proc$/openlane/designs/salsa20/src/salsa20.v:1947$47'.
+ABC: Error: The network is combinational.
+Warning: Wire salsa20.\error is used but has no driver.
