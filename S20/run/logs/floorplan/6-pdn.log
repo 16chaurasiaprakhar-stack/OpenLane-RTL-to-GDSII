@@ -1,0 +1,58 @@
+OpenROAD 41a51eaf4ca2171c92ff38afb91eb37bbd3f36da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/tmp/floorplan/5-tapcell.odb'…
+define_corners Typical
+read_liberty -corner Typical /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+Reading design constraints file at '/openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/tmp/floorplan/3-initial_fp.sdc'…
+[INFO PDN-0001] Inserting grid: stdcell_grid
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (133.150um, 137.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (175.440um, 180.710um).
+[WARNING PSM-0030] VSRC location at (973.150um, 137.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (943.440um, 180.710um).
+[WARNING PSM-0030] VSRC location at (413.150um, 277.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (482.640um, 333.890um).
+[WARNING PSM-0030] VSRC location at (693.150um, 417.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (636.240um, 487.070um).
+[WARNING PSM-0030] VSRC location at (133.150um, 557.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (175.440um, 487.070um).
+[WARNING PSM-0030] VSRC location at (973.150um, 557.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (943.440um, 487.070um).
+[WARNING PSM-0030] VSRC location at (413.150um, 697.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (482.640um, 640.250um).
+[WARNING PSM-0030] VSRC location at (693.150um, 837.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (636.240um, 793.430um).
+[WARNING PSM-0030] VSRC location at (133.150um, 977.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (175.440um, 946.610um).
+[WARNING PSM-0030] VSRC location at (973.150um, 977.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (943.440um, 946.610um).
+[INFO PSM-0031] Number of PDN nodes on net VPWR = 29104.
+[INFO PSM-0064] Number of voltage sources = 10.
+[INFO PSM-0040] All PDN stripes on net VPWR are connected.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VGND is not explicitly set.
+[WARNING PSM-0021] Using voltage 0.000V for ground network.
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (133.150um, 137.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (178.740um, 184.010um).
+[WARNING PSM-0030] VSRC location at (973.150um, 137.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (946.740um, 184.010um).
+[WARNING PSM-0030] VSRC location at (413.150um, 277.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (485.940um, 337.190um).
+[WARNING PSM-0030] VSRC location at (693.150um, 417.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (639.540um, 490.370um).
+[WARNING PSM-0030] VSRC location at (133.150um, 557.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (178.740um, 490.370um).
+[WARNING PSM-0030] VSRC location at (973.150um, 557.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (946.740um, 490.370um).
+[WARNING PSM-0030] VSRC location at (413.150um, 697.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (485.940um, 643.550um).
+[WARNING PSM-0030] VSRC location at (693.150um, 837.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (639.540um, 796.730um).
+[WARNING PSM-0030] VSRC location at (133.150um, 977.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (178.740um, 949.910um).
+[WARNING PSM-0030] VSRC location at (973.150um, 977.600um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (946.740um, 949.910um).
+[INFO PSM-0031] Number of PDN nodes on net VGND = 29248.
+[INFO PSM-0064] Number of voltage sources = 10.
+[INFO PSM-0040] All PDN stripes on net VGND are connected.
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/results/floorplan/salsa20.odb'…
+Writing layout to '/openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/results/floorplan/salsa20.def'…
