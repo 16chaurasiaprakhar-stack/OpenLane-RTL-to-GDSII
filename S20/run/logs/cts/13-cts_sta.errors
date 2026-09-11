@@ -1,0 +1,3 @@
+Endpoint: error (output port clocked by clk)
+     1    0.03                           error (net)
+                  0.12    0.00   11.09 ^ error (out)
