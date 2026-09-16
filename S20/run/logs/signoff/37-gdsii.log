@@ -1,0 +1,1164 @@
+
+Magic 8.3 revision 413 - Compiled on Wed Jul 12 10:04:40 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.493-0-g0fe599b
+Reading LEF data from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 82 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 83 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 116 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 118 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 119 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 125 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 126 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 127 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 160 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 171 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 172 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 173 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 213 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 214 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 215 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 255 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 256 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 257 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 294 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 801 lines.
+Reading DEF data from file /openlane/designs/salsa20/runs/RUN_2026.07.11_07.13.07/results/routing/salsa20.def.
+This action cannot be undone.
+  Processed 4 vias total.
+Cell sky130_fd_sc_hd__diode_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_3 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_ef_sc_hd__decap_12 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__fill_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__fill_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_6 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_16 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_6 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__inv_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__inv_6 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__inv_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlymetal6s2s_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4bb_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_12 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111oi_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkinv_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlygate4sd3_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+  Processed 176200 subcell instances total.
+  Processed 79 pins total.
+  Processed 2 special nets total.
+  Processed 29450 nets total.
+DEF read: Processed 732943 lines.
+Moving label "_00006_" from metal1 to via1 in cell salsa20.
+Moving label "_00019_" from metal1 to via1 in cell salsa20.
+Moving label "_00024_" from metal1 to via1 in cell salsa20.
+Moving label "_00032_" from metal1 to via1 in cell salsa20.
+Moving label "_00037_" from metal1 to via1 in cell salsa20.
+Moving label "_00038_" from metal1 to via1 in cell salsa20.
+Moving label "_00054_" from metal1 to via1 in cell salsa20.
+Moving label "_00061_" from metal1 to via1 in cell salsa20.
+Moving label "_00070_" from metal1 to via1 in cell salsa20.
+Moving label "_00071_" from metal1 to via1 in cell salsa20.
+Moving label "_00101_" from metal1 to via1 in cell salsa20.
+Moving label "_00112_" from metal1 to via1 in cell salsa20.
+Moving label "_00136_" from metal1 to via1 in cell salsa20.
+Moving label "_00173_" from metal1 to via1 in cell salsa20.
+Moving label "_00204_" from metal1 to via1 in cell salsa20.
+Moving label "_00239_" from metal1 to via1 in cell salsa20.
+Moving label "_00261_" from metal1 to via1 in cell salsa20.
+Moving label "_00273_" from metal1 to via1 in cell salsa20.
+Moving label "_00285_" from metal1 to via1 in cell salsa20.
+Moving label "_00301_" from metal1 to via1 in cell salsa20.
+Moving label "_00326_" from metal1 to via1 in cell salsa20.
+Moving label "_00329_" from metal1 to via1 in cell salsa20.
+Moving label "_00410_" from metal1 to via1 in cell salsa20.
+Moving label "_00435_" from metal1 to via1 in cell salsa20.
+Moving label "_00443_" from metal1 to via1 in cell salsa20.
+Moving label "_00447_" from metal1 to via1 in cell salsa20.
+Moving label "_00448_" from metal1 to via1 in cell salsa20.
+Moving label "_00452_" from metal1 to via1 in cell salsa20.
+Moving label "_00458_" from metal1 to via1 in cell salsa20.
+Moving label "_00481_" from metal1 to via1 in cell salsa20.
+Moving label "_00483_" from metal1 to via1 in cell salsa20.
+Moving label "_00494_" from metal1 to via1 in cell salsa20.
+Moving label "_00518_" from metal1 to via1 in cell salsa20.
+Moving label "_00551_" from metal1 to via1 in cell salsa20.
+Moving label "_00610_" from metal1 to via1 in cell salsa20.
+Moving label "_00626_" from metal1 to via1 in cell salsa20.
+Moving label "_00632_" from metal1 to viali in cell salsa20.
+Moving label "_00641_" from metal1 to via1 in cell salsa20.
+Moving label "_00658_" from metal1 to via1 in cell salsa20.
+Moving label "_00676_" from metal1 to via1 in cell salsa20.
+Moving label "_00685_" from metal1 to via1 in cell salsa20.
+Moving label "_00692_" from metal1 to via1 in cell salsa20.
+Moving label "_00708_" from metal1 to via1 in cell salsa20.
+Moving label "_00719_" from metal1 to via1 in cell salsa20.
+Moving label "_00737_" from metal1 to via1 in cell salsa20.
+Moving label "_00741_" from metal1 to via1 in cell salsa20.
+Moving label "_00744_" from metal1 to via1 in cell salsa20.
+Moving label "_00784_" from metal1 to via1 in cell salsa20.
+Moving label "_00785_" from metal1 to via1 in cell salsa20.
+Moving label "_00822_" from metal1 to via1 in cell salsa20.
+Moving label "_00843_" from metal1 to viali in cell salsa20.
+Moving label "_00844_" from metal1 to via1 in cell salsa20.
+Moving label "_00859_" from metal1 to via1 in cell salsa20.
+Moving label "_00860_" from metal1 to via1 in cell salsa20.
+Moving label "_00866_" from metal1 to via1 in cell salsa20.
+Moving label "_00873_" from metal1 to via1 in cell salsa20.
+Moving label "_00890_" from metal1 to via1 in cell salsa20.
+Moving label "_00899_" from metal1 to via1 in cell salsa20.
+Moving label "_00900_" from metal1 to via1 in cell salsa20.
+Moving label "_00913_" from metal1 to via1 in cell salsa20.
+Moving label "_00917_" from metal1 to via1 in cell salsa20.
+Moving label "_00940_" from metal1 to via1 in cell salsa20.
+Moving label "_00949_" from metal1 to via1 in cell salsa20.
+Moving label "_00960_" from metal1 to viali in cell salsa20.
+Moving label "_00967_" from metal1 to via1 in cell salsa20.
+Moving label "_00969_" from metal1 to via1 in cell salsa20.
+Moving label "_00970_" from metal1 to via1 in cell salsa20.
+Moving label "_00974_" from metal1 to via1 in cell salsa20.
+Moving label "_00999_" from metal1 to via1 in cell salsa20.
+Moving label "_01004_" from metal1 to via1 in cell salsa20.
+Moving label "_01007_" from metal1 to via1 in cell salsa20.
+Moving label "_01008_" from metal1 to via1 in cell salsa20.
+Moving label "_01013_" from metal1 to via1 in cell salsa20.
+Moving label "_01019_" from metal1 to via1 in cell salsa20.
+Moving label "_01032_" from metal1 to via1 in cell salsa20.
+Moving label "_01035_" from metal1 to via1 in cell salsa20.
+Moving label "_01049_" from metal1 to via1 in cell salsa20.
+Moving label "_01052_" from metal1 to via1 in cell salsa20.
+Moving label "_01060_" from metal1 to via1 in cell salsa20.
+Moving label "_01072_" from metal1 to via1 in cell salsa20.
+Moving label "_01084_" from metal1 to viali in cell salsa20.
+Moving label "_01113_" from metal1 to via1 in cell salsa20.
+Moving label "_01117_" from metal1 to via1 in cell salsa20.
+Moving label "_01120_" from metal1 to via1 in cell salsa20.
+Moving label "_01130_" from metal1 to via1 in cell salsa20.
+Moving label "_01133_" from metal1 to via1 in cell salsa20.
+Moving label "_01135_" from metal1 to via1 in cell salsa20.
+Moving label "_01137_" from metal1 to via1 in cell salsa20.
+Moving label "_01142_" from metal1 to via1 in cell salsa20.
+Moving label "_01146_" from metal1 to via1 in cell salsa20.
+Moving label "_01151_" from metal1 to via1 in cell salsa20.
+Moving label "_01154_" from metal1 to via1 in cell salsa20.
+Moving label "_01176_" from metal1 to via1 in cell salsa20.
+Moving label "_01177_" from metal1 to via1 in cell salsa20.
+Moving label "_01187_" from metal1 to via1 in cell salsa20.
+Moving label "_01192_" from metal1 to via1 in cell salsa20.
+Moving label "_01196_" from metal1 to via1 in cell salsa20.
+Moving label "_01215_" from metal1 to via1 in cell salsa20.
+Moving label "_01218_" from metal1 to via1 in cell salsa20.
+Moving label "_01226_" from metal1 to via1 in cell salsa20.
+Moving label "_01230_" from metal1 to via1 in cell salsa20.
+Moving label "_01231_" from metal1 to via1 in cell salsa20.
+Moving label "_01256_" from metal1 to via1 in cell salsa20.
+Moving label "_01302_" from metal1 to via1 in cell salsa20.
+Moving label "_01326_" from metal1 to via1 in cell salsa20.
+Moving label "_01329_" from metal1 to via1 in cell salsa20.
+Moving label "_01342_" from metal1 to via1 in cell salsa20.
+Moving label "_01355_" from metal1 to via1 in cell salsa20.
+Moving label "_01430_" from metal1 to viali in cell salsa20.
+Moving label "_01586_" from metal2 to via1 in cell salsa20.
+Moving label "_01589_" from metal2 to via2 in cell salsa20.
+Moving label "_01691_" from metal1 to via1 in cell salsa20.
+Moving label "_01697_" from metal1 to via1 in cell salsa20.
+Moving label "_01710_" from metal1 to via1 in cell salsa20.
+Moving label "_01723_" from metal1 to via1 in cell salsa20.
+Moving label "_01727_" from metal1 to via1 in cell salsa20.
+Moving label "_01730_" from metal1 to via1 in cell salsa20.
+Moving label "_01741_" from metal1 to via1 in cell salsa20.
+Moving label "_01745_" from metal1 to via1 in cell salsa20.
+Moving label "_01767_" from metal1 to via1 in cell salsa20.
+Moving label "_01775_" from metal1 to via1 in cell salsa20.
+Moving label "_01776_" from metal1 to via1 in cell salsa20.
+Moving label "_01782_" from metal1 to via1 in cell salsa20.
+Moving label "_01791_" from metal1 to via1 in cell salsa20.
+Moving label "_01792_" from metal1 to via1 in cell salsa20.
+Moving label "_01800_" from metal1 to via1 in cell salsa20.
+Moving label "_01805_" from metal1 to via1 in cell salsa20.
+Moving label "_01806_" from metal1 to via1 in cell salsa20.
+Moving label "_01832_" from metal1 to via1 in cell salsa20.
+Moving label "_01861_" from metal1 to via1 in cell salsa20.
+Moving label "_01899_" from metal1 to via1 in cell salsa20.
+Moving label "_01903_" from metal1 to via1 in cell salsa20.
+Moving label "_01941_" from metal1 to via1 in cell salsa20.
+Moving label "_01944_" from metal1 to via1 in cell salsa20.
+Moving label "_01949_" from metal1 to via1 in cell salsa20.
+Moving label "_01964_" from metal1 to viali in cell salsa20.
+Moving label "_01966_" from metal1 to via1 in cell salsa20.
+Moving label "_01973_" from metal1 to via1 in cell salsa20.
+Moving label "_01974_" from metal1 to via1 in cell salsa20.
+Moving label "_01975_" from metal1 to via1 in cell salsa20.
+Moving label "_01979_" from metal1 to viali in cell salsa20.
+Moving label "_01981_" from metal1 to via1 in cell salsa20.
+Moving label "_01982_" from metal1 to via1 in cell salsa20.
+Moving label "_01984_" from metal1 to via1 in cell salsa20.
+Moving label "_01990_" from metal1 to via1 in cell salsa20.
+Moving label "_01999_" from metal1 to via1 in cell salsa20.
+Moving label "_02011_" from metal1 to via1 in cell salsa20.
+Moving label "_02012_" from metal1 to via1 in cell salsa20.
+Moving label "_02015_" from metal1 to via1 in cell salsa20.
+Moving label "_02034_" from metal1 to via1 in cell salsa20.
+Moving label "_02040_" from metal1 to via1 in cell salsa20.
+Moving label "_02047_" from metal1 to viali in cell salsa20.
+Moving label "_02051_" from metal1 to via1 in cell salsa20.
+Moving label "_02056_" from metal1 to via1 in cell salsa20.
+Moving label "_02061_" from metal1 to via1 in cell salsa20.
+Moving label "_02062_" from metal1 to via1 in cell salsa20.
+Moving label "_02069_" from metal1 to via1 in cell salsa20.
+Moving label "_02076_" from metal1 to via1 in cell salsa20.
+Moving label "_02081_" from metal1 to via1 in cell salsa20.
+Moving label "_02092_" from metal1 to via1 in cell salsa20.
+Moving label "_02097_" from metal1 to via1 in cell salsa20.
+Moving label "_02109_" from metal2 to via1 in cell salsa20.
+Moving label "_02116_" from metal1 to via1 in cell salsa20.
+Moving label "_02129_" from metal1 to via1 in cell salsa20.
+Moving label "_02141_" from metal1 to via1 in cell salsa20.
+Moving label "_02151_" from metal1 to via1 in cell salsa20.
+Moving label "_02158_" from metal1 to via1 in cell salsa20.
+Moving label "_02161_" from metal1 to via1 in cell salsa20.
+Moving label "_02183_" from metal1 to via1 in cell salsa20.
+Moving label "_02197_" from metal1 to via1 in cell salsa20.
+Moving label "_02327_" from metal1 to via1 in cell salsa20.
+Moving label "_02346_" from metal1 to via1 in cell salsa20.
+Moving label "_02355_" from metal1 to via1 in cell salsa20.
+Moving label "_02451_" from metal1 to via1 in cell salsa20.
+Moving label "_02457_" from metal1 to via1 in cell salsa20.
+Moving label "_03107_" from metal1 to via1 in cell salsa20.
+Moving label "_03114_" from metal1 to via1 in cell salsa20.
+Moving label "_03203_" from metal1 to viali in cell salsa20.
+Moving label "_03266_" from metal1 to via1 in cell salsa20.
+Moving label "_03267_" from metal1 to via1 in cell salsa20.
+Moving label "_03305_" from metal1 to via1 in cell salsa20.
+Moving label "_03331_" from metal1 to via1 in cell salsa20.
+Moving label "_03333_" from metal1 to via1 in cell salsa20.
+Moving label "_03372_" from metal1 to via1 in cell salsa20.
+Moving label "_03465_" from metal1 to viali in cell salsa20.
+Moving label "_03540_" from metal1 to viali in cell salsa20.
+Moving label "_03611_" from metal1 to via1 in cell salsa20.
+Moving label "_03613_" from metal1 to viali in cell salsa20.
+Moving label "_03614_" from metal1 to via1 in cell salsa20.
+Moving label "_03627_" from metal1 to via1 in cell salsa20.
+Moving label "_03630_" from metal1 to via1 in cell salsa20.
+Moving label "_03633_" from metal1 to via1 in cell salsa20.
+Moving label "_03638_" from metal1 to via1 in cell salsa20.
+Moving label "_03641_" from metal1 to via1 in cell salsa20.
+Moving label "_03659_" from metal1 to via1 in cell salsa20.
+Moving label "_03702_" from metal1 to via1 in cell salsa20.
+Moving label "_03756_" from metal2 to via2 in cell salsa20.
+Moving label "_03780_" from metal1 to viali in cell salsa20.
+Moving label "_03792_" from metal1 to viali in cell salsa20.
+Moving label "_03818_" from metal1 to viali in cell salsa20.
+Moving label "_03829_" from metal1 to viali in cell salsa20.
+Moving label "_03845_" from metal1 to via1 in cell salsa20.
+Moving label "_03865_" from metal2 to via2 in cell salsa20.
+Moving label "_03889_" from metal1 to viali in cell salsa20.
+Moving label "_03962_" from metal1 to viali in cell salsa20.
+Moving label "_04017_" from metal1 to viali in cell salsa20.
+Moving label "_04018_" from metal2 to via2 in cell salsa20.
+Moving label "_04102_" from metal2 to via1 in cell salsa20.
+Moving label "_04713_" from metal1 to viali in cell salsa20.
+Moving label "_05040_" from metal1 to viali in cell salsa20.
+Moving label "_05230_" from metal1 to via1 in cell salsa20.
+Moving label "_05363_" from metal1 to via1 in cell salsa20.
+Moving label "_05423_" from metal1 to viali in cell salsa20.
+Moving label "_05442_" from metal1 to viali in cell salsa20.
+Moving label "_05458_" from metal1 to via1 in cell salsa20.
+Moving label "_05460_" from metal1 to via1 in cell salsa20.
+Moving label "_05532_" from metal1 to viali in cell salsa20.
+Moving label "_05584_" from metal1 to viali in cell salsa20.
+Moving label "_05642_" from metal1 to viali in cell salsa20.
+Moving label "_05718_" from metal1 to viali in cell salsa20.
+Moving label "_05763_" from metal1 to via1 in cell salsa20.
+Moving label "_05795_" from metal1 to viali in cell salsa20.
+Moving label "_05803_" from metal1 to viali in cell salsa20.
+Moving label "_05890_" from metal2 to via1 in cell salsa20.
+Moving label "_06109_" from metal2 to via2 in cell salsa20.
+Moving label "_06210_" from metal2 to via2 in cell salsa20.
+Moving label "_06213_" from metal2 to via2 in cell salsa20.
+Moving label "_06237_" from metal2 to via2 in cell salsa20.
+Moving label "_06440_" from metal2 to via2 in cell salsa20.
+Moving label "_06482_" from metal2 to via2 in cell salsa20.
+Moving label "_06488_" from metal2 to via2 in cell salsa20.
+Moving label "_06654_" from metal2 to via2 in cell salsa20.
+Moving label "_06920_" from metal1 to viali in cell salsa20.
+Moving label "_06952_" from metal1 to via1 in cell salsa20.
+Moving label "_06995_" from metal2 to via2 in cell salsa20.
+Moving label "_07008_" from metal2 to via1 in cell salsa20.
+Moving label "_07013_" from metal2 to via2 in cell salsa20.
+Moving label "_07018_" from metal2 to via1 in cell salsa20.
+Moving label "_07030_" from metal2 to via2 in cell salsa20.
+Moving label "_07039_" from metal2 to via2 in cell salsa20.
+Moving label "_07046_" from metal1 to viali in cell salsa20.
+Moving label "_07165_" from metal2 to via2 in cell salsa20.
+Moving label "_07176_" from metal2 to via2 in cell salsa20.
+Moving label "_07192_" from metal2 to via2 in cell salsa20.
+Moving label "_07217_" from metal2 to via2 in cell salsa20.
+Moving label "_07262_" from metal1 to via1 in cell salsa20.
+Moving label "_07288_" from metal2 to via2 in cell salsa20.
+Moving label "_07350_" from metal1 to viali in cell salsa20.
+Moving label "_07431_" from metal2 to via2 in cell salsa20.
+Moving label "_07446_" from metal2 to via2 in cell salsa20.
+Moving label "_07448_" from metal1 to via1 in cell salsa20.
+Moving label "_07454_" from metal1 to via1 in cell salsa20.
+Moving label "_07474_" from metal1 to viali in cell salsa20.
+Moving label "_07502_" from metal1 to via1 in cell salsa20.
+Moving label "_07505_" from metal2 to via2 in cell salsa20.
+Moving label "_07512_" from metal1 to via1 in cell salsa20.
+Moving label "_07515_" from metal1 to viali in cell salsa20.
+Moving label "_07522_" from metal2 to via2 in cell salsa20.
+Moving label "_07583_" from metal1 to via1 in cell salsa20.
+Moving label "_07590_" from metal1 to via1 in cell salsa20.
+Moving label "_07595_" from metal1 to via1 in cell salsa20.
+Moving label "_07624_" from metal1 to via1 in cell salsa20.
+Moving label "_07626_" from metal1 to viali in cell salsa20.
+Moving label "_07694_" from metal2 to via1 in cell salsa20.
+Moving label "_07701_" from metal1 to via1 in cell salsa20.
+Moving label "_07711_" from metal1 to via1 in cell salsa20.
+Moving label "_07742_" from metal1 to via1 in cell salsa20.
+Moving label "_07753_" from metal1 to via1 in cell salsa20.
+Moving label "_07793_" from metal1 to viali in cell salsa20.
+Moving label "_08111_" from metal1 to via1 in cell salsa20.
+Moving label "_08115_" from metal2 to via2 in cell salsa20.
+Moving label "_08118_" from metal1 to viali in cell salsa20.
+Moving label "_08139_" from metal3 to via3 in cell salsa20.
+Moving label "_08175_" from metal1 to via1 in cell salsa20.
+Moving label "_08230_" from metal1 to via1 in cell salsa20.
+Moving label "_08363_" from metal3 to via3 in cell salsa20.
+Moving label "_08413_" from metal2 to via2 in cell salsa20.
+Moving label "_08420_" from metal2 to via2 in cell salsa20.
+Moving label "_08439_" from metal1 to via1 in cell salsa20.
+Moving label "_08450_" from metal2 to via2 in cell salsa20.
+Moving label "_08538_" from metal2 to via2 in cell salsa20.
+Moving label "_08555_" from metal2 to via2 in cell salsa20.
+Moving label "_08635_" from metal2 to via2 in cell salsa20.
+Moving label "_08642_" from metal2 to via1 in cell salsa20.
+Moving label "_08659_" from metal3 to via3 in cell salsa20.
+Moving label "_08703_" from metal2 to via2 in cell salsa20.
+Moving label "_08704_" from metal3 to via3 in cell salsa20.
+Moving label "_08706_" from metal2 to via2 in cell salsa20.
+Moving label "_08712_" from metal2 to via1 in cell salsa20.
+Moving label "_08783_" from metal2 to via2 in cell salsa20.
+Moving label "_08812_" from metal2 to via2 in cell salsa20.
+Moving label "_08878_" from metal2 to via2 in cell salsa20.
+Moving label "_08911_" from metal2 to via2 in cell salsa20.
+Moving label "_08996_" from metal1 to viali in cell salsa20.
+Moving label "_09152_" from metal2 to via1 in cell salsa20.
+Moving label "_09168_" from metal1 to viali in cell salsa20.
+Moving label "_09298_" from metal1 to via1 in cell salsa20.
+Moving label "_09324_" from metal2 to via2 in cell salsa20.
+Moving label "_09337_" from metal2 to via2 in cell salsa20.
+Moving label "_09381_" from metal2 to via2 in cell salsa20.
+Moving label "_09385_" from metal2 to via2 in cell salsa20.
+Moving label "_09392_" from metal1 to via1 in cell salsa20.
+Moving label "_09414_" from metal2 to via2 in cell salsa20.
+Moving label "_09429_" from metal2 to via2 in cell salsa20.
+Moving label "_09434_" from metal1 to via1 in cell salsa20.
+Moving label "_09439_" from metal2 to via2 in cell salsa20.
+Moving label "_09503_" from metal2 to via2 in cell salsa20.
+Moving label "_09528_" from metal3 to via3 in cell salsa20.
+Moving label "_09530_" from metal2 to via2 in cell salsa20.
+Moving label "_09576_" from metal2 to via2 in cell salsa20.
+Moving label "_09642_" from metal2 to via2 in cell salsa20.
+Moving label "_09687_" from metal2 to via2 in cell salsa20.
+Moving label "_09740_" from metal2 to via2 in cell salsa20.
+Moving label "_09745_" from metal1 to viali in cell salsa20.
+Moving label "_09748_" from metal1 to via1 in cell salsa20.
+Moving label "_09905_" from metal2 to via2 in cell salsa20.
+Moving label "_09926_" from metal1 to via1 in cell salsa20.
+Moving label "_09986_" from metal3 to via3 in cell salsa20.
+Moving label "_10056_" from metal1 to viali in cell salsa20.
+Moving label "_10064_" from metal1 to via1 in cell salsa20.
+Moving label "_10150_" from metal1 to via1 in cell salsa20.
+Moving label "_10259_" from metal1 to viali in cell salsa20.
+Moving label "_10287_" from metal1 to viali in cell salsa20.
+Moving label "_10354_" from metal2 to via2 in cell salsa20.
+Moving label "_10416_" from metal1 to via1 in cell salsa20.
+Moving label "_10492_" from metal1 to via1 in cell salsa20.
+Moving label "_10546_" from metal1 to viali in cell salsa20.
+Moving label "_10587_" from metal2 to via2 in cell salsa20.
+Moving label "_10615_" from metal1 to via1 in cell salsa20.
+Moving label "_10672_" from metal1 to via1 in cell salsa20.
+Moving label "_10706_" from metal1 to viali in cell salsa20.
+Moving label "_10717_" from metal1 to viali in cell salsa20.
+Moving label "_10722_" from metal2 to via1 in cell salsa20.
+Moving label "_10739_" from metal1 to via1 in cell salsa20.
+Moving label "_10773_" from metal1 to via1 in cell salsa20.
+Moving label "_10776_" from metal2 to via2 in cell salsa20.
+Moving label "_10829_" from metal3 to via3 in cell salsa20.
+Moving label "_10885_" from metal2 to via2 in cell salsa20.
+Moving label "_10892_" from metal1 to via1 in cell salsa20.
+Moving label "_10911_" from metal2 to via2 in cell salsa20.
+Moving label "_10922_" from metal1 to via1 in cell salsa20.
+Moving label "_10933_" from metal2 to via2 in cell salsa20.
+Moving label "_10991_" from metal1 to via1 in cell salsa20.
+Moving label "_11072_" from metal2 to via2 in cell salsa20.
+Moving label "_11076_" from metal1 to viali in cell salsa20.
+Moving label "_11104_" from metal1 to viali in cell salsa20.
+Moving label "_11172_" from metal1 to viali in cell salsa20.
+Moving label "_11231_" from metal1 to via1 in cell salsa20.
+Moving label "_11245_" from metal1 to via1 in cell salsa20.
+Moving label "_11246_" from metal1 to via1 in cell salsa20.
+Moving label "_11289_" from metal2 to via1 in cell salsa20.
+Moving label "_11365_" from metal1 to viali in cell salsa20.
+Moving label "_11370_" from metal1 to via1 in cell salsa20.
+Moving label "_11441_" from metal1 to viali in cell salsa20.
+Moving label "_11454_" from metal2 to via1 in cell salsa20.
+Moving label "_11473_" from metal2 to via2 in cell salsa20.
+Moving label "_11553_" from metal1 to viali in cell salsa20.
+Moving label "_11621_" from metal1 to viali in cell salsa20.
+Moving label "_11673_" from metal2 to via1 in cell salsa20.
+Moving label "_11698_" from metal1 to via1 in cell salsa20.
+Moving label "_11701_" from metal1 to viali in cell salsa20.
+Moving label "_11707_" from metal1 to viali in cell salsa20.
+Moving label "_11713_" from metal2 to via2 in cell salsa20.
+Moving label "_11720_" from metal2 to via2 in cell salsa20.
+Moving label "_11751_" from metal1 to viali in cell salsa20.
+Moving label "_11864_" from metal1 to via1 in cell salsa20.
+Moving label "_11892_" from metal2 to via2 in cell salsa20.
+Moving label "_11953_" from metal2 to via2 in cell salsa20.
+Moving label "_11986_" from metal1 to via1 in cell salsa20.
+Moving label "_12023_" from metal2 to via2 in cell salsa20.
+Moving label "_12084_" from metal1 to via1 in cell salsa20.
+Moving label "_12095_" from metal2 to via1 in cell salsa20.
+Moving label "_12105_" from metal1 to viali in cell salsa20.
+Moving label "_12107_" from metal1 to via1 in cell salsa20.
+Moving label "_12115_" from metal1 to via1 in cell salsa20.
+Moving label "_12136_" from metal1 to via1 in cell salsa20.
+Moving label "_12140_" from metal1 to viali in cell salsa20.
+Moving label "_12195_" from metal1 to via1 in cell salsa20.
+Moving label "_12205_" from metal2 to via1 in cell salsa20.
+Moving label "_12253_" from metal1 to via1 in cell salsa20.
+Moving label "_12289_" from metal1 to via1 in cell salsa20.
+Moving label "_12291_" from metal1 to viali in cell salsa20.
+Moving label "_12313_" from metal2 to via1 in cell salsa20.
+Moving label "_12329_" from metal1 to via1 in cell salsa20.
+Moving label "_12399_" from metal3 to via3 in cell salsa20.
+Moving label "_12417_" from metal3 to via3 in cell salsa20.
+Moving label "_12476_" from metal1 to viali in cell salsa20.
+Moving label "_12528_" from metal3 to via3 in cell salsa20.
+Moving label "_12540_" from metal1 to via1 in cell salsa20.
+Moving label "_12557_" from metal2 to via2 in cell salsa20.
+Moving label "_12562_" from metal2 to via2 in cell salsa20.
+Moving label "_12566_" from metal2 to via2 in cell salsa20.
+Moving label "_12568_" from metal2 to via2 in cell salsa20.
+Moving label "_12573_" from metal1 to via1 in cell salsa20.
+Moving label "_12575_" from metal2 to via2 in cell salsa20.
+Moving label "_12579_" from metal2 to via2 in cell salsa20.
+Moving label "_12583_" from metal2 to via2 in cell salsa20.
+Moving label "_12585_" from metal2 to via2 in cell salsa20.
+Moving label "_12588_" from metal2 to via2 in cell salsa20.
+Moving label "_12590_" from metal2 to via2 in cell salsa20.
+Moving label "_12595_" from metal2 to via2 in cell salsa20.
+Moving label "_12596_" from metal2 to via2 in cell salsa20.
+Moving label "_12600_" from metal2 to via2 in cell salsa20.
+Moving label "_12602_" from metal1 to viali in cell salsa20.
+Moving label "_12651_" from metal1 to via1 in cell salsa20.
+Moving label "_12892_" from metal2 to via2 in cell salsa20.
+Moving label "_12920_" from metal2 to via2 in cell salsa20.
+Moving label "_12929_" from metal2 to via2 in cell salsa20.
+Moving label "_12939_" from metal2 to via2 in cell salsa20.
+Moving label "_12942_" from metal2 to via2 in cell salsa20.
+Moving label "_12951_" from metal2 to via2 in cell salsa20.
+Moving label "_12973_" from metal2 to via2 in cell salsa20.
+Moving label "_12987_" from metal2 to via2 in cell salsa20.
+Moving label "_12995_" from metal1 to via1 in cell salsa20.
+Moving label "_13065_" from metal2 to via1 in cell salsa20.
+Moving label "_13072_" from metal2 to via2 in cell salsa20.
+Moving label "_13120_" from metal1 to viali in cell salsa20.
+Moving label "_13170_" from metal1 to via1 in cell salsa20.
+Moving label "_13237_" from metal1 to via1 in cell salsa20.
+Moving label "_13300_" from metal1 to via1 in cell salsa20.
+Moving label "_13377_" from metal1 to via1 in cell salsa20.
+Moving label "_13421_" from metal1 to viali in cell salsa20.
+Moving label "_13438_" from metal1 to via1 in cell salsa20.
+Moving label "_13533_" from metal1 to via1 in cell salsa20.
+Moving label "_13552_" from metal2 to via1 in cell salsa20.
+Moving label "_13712_" from metal1 to via1 in cell salsa20.
+Moving label "_13720_" from metal1 to viali in cell salsa20.
+Moving label "_13762_" from metal1 to via1 in cell salsa20.
+Moving label "_13854_" from metal2 to via2 in cell salsa20.
+Moving label "_13879_" from metal1 to via1 in cell salsa20.
+Moving label "_13902_" from metal1 to viali in cell salsa20.
+Moving label "_14010_" from metal1 to via1 in cell salsa20.
+Moving label "_14333_" from metal2 to via1 in cell salsa20.
+Moving label "_14457_" from metal1 to viali in cell salsa20.
+Moving label "_14501_" from metal1 to via1 in cell salsa20.
+Moving label "_14510_" from metal1 to via1 in cell salsa20.
+Moving label "_14532_" from metal1 to via1 in cell salsa20.
+Moving label "_14630_" from metal2 to via1 in cell salsa20.
+Moving label "_14702_" from metal1 to viali in cell salsa20.
+Moving label "_14950_" from metal2 to via2 in cell salsa20.
+Moving label "_15171_" from metal1 to viali in cell salsa20.
+Moving label "_15181_" from metal1 to viali in cell salsa20.
+Moving label "_15326_" from metal1 to via1 in cell salsa20.
+Moving label "_15348_" from metal1 to via1 in cell salsa20.
+Moving label "_15364_" from metal1 to viali in cell salsa20.
+Moving label "_15371_" from metal2 to via1 in cell salsa20.
+Moving label "_15431_" from metal2 to via2 in cell salsa20.
+Moving label "_15449_" from metal1 to via1 in cell salsa20.
+Moving label "_15502_" from metal1 to via1 in cell salsa20.
+Moving label "_15538_" from metal1 to via1 in cell salsa20.
+Moving label "_15684_" from metal1 to via1 in cell salsa20.
+Moving label "_15688_" from metal2 to via2 in cell salsa20.
+Moving label "_15723_" from metal1 to viali in cell salsa20.
+Moving label "_15851_" from metal1 to via1 in cell salsa20.
+Moving label "_15927_" from metal1 to via1 in cell salsa20.
+Moving label "_16015_" from metal2 to via2 in cell salsa20.
+Moving label "_16446_" from metal2 to via1 in cell salsa20.
+Moving label "_16475_" from metal1 to via1 in cell salsa20.
+Moving label "_16494_" from metal1 to viali in cell salsa20.
+Moving label "_16509_" from metal1 to viali in cell salsa20.
+Moving label "_16523_" from metal1 to via1 in cell salsa20.
+Moving label "_16707_" from metal1 to viali in cell salsa20.
+Moving label "_16708_" from metal1 to via1 in cell salsa20.
+Moving label "_16741_" from metal1 to viali in cell salsa20.
+Moving label "_16762_" from metal1 to viali in cell salsa20.
+Moving label "_16774_" from metal1 to viali in cell salsa20.
+Moving label "_16805_" from metal1 to via1 in cell salsa20.
+Moving label "_16828_" from metal2 to via1 in cell salsa20.
+Moving label "_16855_" from metal1 to viali in cell salsa20.
+Moving label "_16879_" from metal1 to viali in cell salsa20.
+Moving label "_16992_" from metal2 to via2 in cell salsa20.
+Moving label "_17003_" from metal2 to via2 in cell salsa20.
+Moving label "_17012_" from metal1 to viali in cell salsa20.
+Moving label "_17094_" from metal1 to via1 in cell salsa20.
+Moving label "_17136_" from metal1 to viali in cell salsa20.
+Moving label "_17194_" from metal2 to via1 in cell salsa20.
+Moving label "_17208_" from metal1 to viali in cell salsa20.
+Moving label "_17280_" from metal1 to viali in cell salsa20.
+Moving label "_17283_" from metal1 to viali in cell salsa20.
+Moving label "_17297_" from metal1 to viali in cell salsa20.
+Moving label "_17342_" from metal2 to via1 in cell salsa20.
+Moving label "_17354_" from metal1 to via1 in cell salsa20.
+Moving label "_17368_" from metal1 to viali in cell salsa20.
+Moving label "_17380_" from metal1 to via1 in cell salsa20.
+Moving label "_17489_" from metal1 to viali in cell salsa20.
+Moving label "_17490_" from metal1 to via1 in cell salsa20.
+Moving label "_17511_" from metal1 to viali in cell salsa20.
+Moving label "_17517_" from metal1 to via1 in cell salsa20.
+Moving label "_17545_" from metal1 to via1 in cell salsa20.
+Moving label "_17548_" from metal1 to viali in cell salsa20.
+Moving label "_17670_" from metal1 to via1 in cell salsa20.
+Moving label "_17734_" from metal1 to viali in cell salsa20.
+Moving label "_17767_" from metal1 to viali in cell salsa20.
+Moving label "_17831_" from metal1 to via1 in cell salsa20.
+Moving label "_17905_" from metal2 to via1 in cell salsa20.
+Moving label "_17911_" from metal1 to via1 in cell salsa20.
+Moving label "_17912_" from metal2 to via1 in cell salsa20.
+Moving label "_17932_" from metal1 to viali in cell salsa20.
+Moving label "_17951_" from metal1 to viali in cell salsa20.
+Moving label "_17965_" from metal1 to viali in cell salsa20.
+Moving label "_17984_" from metal1 to viali in cell salsa20.
+Moving label "_17993_" from metal1 to viali in cell salsa20.
+Moving label "_18045_" from metal2 to via1 in cell salsa20.
+Moving label "_18089_" from metal3 to via3 in cell salsa20.
+Moving label "_18106_" from metal1 to viali in cell salsa20.
+Moving label "_18126_" from metal1 to via1 in cell salsa20.
+Moving label "_18168_" from metal1 to via1 in cell salsa20.
+Moving label "_18204_" from metal1 to via1 in cell salsa20.
+Moving label "_18279_" from metal1 to via1 in cell salsa20.
+Moving label "_18416_" from metal1 to via1 in cell salsa20.
+Moving label "_18440_" from metal2 to via2 in cell salsa20.
+Moving label "_18453_" from metal2 to via2 in cell salsa20.
+Moving label "_18456_" from metal1 to via1 in cell salsa20.
+Moving label "_18457_" from metal1 to via1 in cell salsa20.
+Moving label "_18503_" from metal2 to via2 in cell salsa20.
+Moving label "_18531_" from metal2 to via2 in cell salsa20.
+Moving label "_18546_" from metal1 to viali in cell salsa20.
+Moving label "_18551_" from metal3 to via3 in cell salsa20.
+Moving label "_18564_" from metal2 to via2 in cell salsa20.
+Moving label "_18607_" from metal2 to via2 in cell salsa20.
+Moving label "_18624_" from metal1 to via1 in cell salsa20.
+Moving label "_18656_" from metal2 to via2 in cell salsa20.
+Moving label "_18670_" from metal2 to via2 in cell salsa20.
+Moving label "_18674_" from metal2 to via2 in cell salsa20.
+Moving label "_18681_" from metal2 to via2 in cell salsa20.
+Moving label "_18687_" from metal1 to viali in cell salsa20.
+Moving label "_18693_" from metal2 to via2 in cell salsa20.
+Moving label "_18698_" from metal2 to via2 in cell salsa20.
+Moving label "_18744_" from metal2 to via2 in cell salsa20.
+Moving label "_18757_" from metal2 to via2 in cell salsa20.
+Moving label "_18767_" from metal2 to via2 in cell salsa20.
+Moving label "_18785_" from metal2 to via2 in cell salsa20.
+Moving label "_18868_" from metal2 to via1 in cell salsa20.
+Moving label "_18872_" from metal1 to viali in cell salsa20.
+Moving label "_18910_" from metal1 to viali in cell salsa20.
+Moving label "_18922_" from metal1 to viali in cell salsa20.
+Moving label "_19026_" from metal1 to viali in cell salsa20.
+Moving label "_19028_" from metal1 to viali in cell salsa20.
+Moving label "_19064_" from metal1 to via1 in cell salsa20.
+Moving label "_19070_" from metal1 to via1 in cell salsa20.
+Moving label "_19097_" from metal1 to viali in cell salsa20.
+Moving label "_19194_" from metal2 to via1 in cell salsa20.
+Moving label "_19274_" from metal1 to viali in cell salsa20.
+Moving label "_19330_" from metal1 to viali in cell salsa20.
+Moving label "_19380_" from metal1 to via1 in cell salsa20.
+Moving label "_19386_" from metal1 to viali in cell salsa20.
+Moving label "_19407_" from metal1 to viali in cell salsa20.
+Moving label "_19452_" from metal2 to via1 in cell salsa20.
+Moving label "_19524_" from metal2 to via1 in cell salsa20.
+Moving label "_19546_" from metal1 to viali in cell salsa20.
+Moving label "_19568_" from metal1 to viali in cell salsa20.
+Moving label "_19697_" from metal1 to via1 in cell salsa20.
+Moving label "_19703_" from metal1 to via1 in cell salsa20.
+Moving label "_19706_" from metal1 to viali in cell salsa20.
+Moving label "_19724_" from metal1 to viali in cell salsa20.
+Moving label "_19791_" from metal1 to via1 in cell salsa20.
+Moving label "_19818_" from metal1 to viali in cell salsa20.
+Moving label "_19823_" from metal1 to via1 in cell salsa20.
+Moving label "_19870_" from metal2 to via2 in cell salsa20.
+Moving label "_19873_" from metal1 to viali in cell salsa20.
+Moving label "address[5]" from metal2 to via2 in cell salsa20.
+Moving label "clknet_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_2_2_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_2_3_0_clk" from metal3 to via3 in cell salsa20.
+Moving label "clknet_3_2_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_3_4_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_3_6_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_6_22_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_6_35_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_6_3_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_6_42_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_6_43_0_clk" from metal2 to via2 in cell salsa20.
+Moving label "clknet_leaf_540_clk" from metal1 to viali in cell salsa20.
+Moving label "clknet_leaf_613_clk" from metal2 to via1 in cell salsa20.
+Moving label "clknet_leaf_648_clk" from metal1 to via1 in cell salsa20.
+Moving label "clknet_leaf_748_clk" from metal1 to viali in cell salsa20.
+Moving label "core.data_in\[164\]" from metal1 to via1 in cell salsa20.
+Moving label "core.data_in\[337\]" from metal1 to via1 in cell salsa20.
+Moving label "core.data_in_reg\[240\]" from metal2 to via2 in cell salsa20.
+Moving label "core.data_in_reg\[428\]" from metal1 to viali in cell salsa20.
+Moving label "core.data_out_valid_new" from metal2 to via2 in cell salsa20.
+Moving label "core.iv1_reg\[29\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key1_reg\[25\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key2_reg\[15\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key2_reg\[16\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key4_reg\[19\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key4_reg\[21\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key5_reg\[2\]" from metal2 to via1 in cell salsa20.
+Moving label "core.key6_reg\[30\]" from metal2 to via1 in cell salsa20.
+Moving label "core.key7_reg\[21\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key\[117\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[128\]" from metal2 to via2 in cell salsa20.
+Moving label "core.key\[144\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[146\]" from metal1 to viali in cell salsa20.
+Moving label "core.key\[156\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[157\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[166\]" from metal1 to viali in cell salsa20.
+Moving label "core.key\[177\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[70\]" from metal1 to viali in cell salsa20.
+Moving label "core.key\[74\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[80\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[88\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[90\]" from metal1 to via1 in cell salsa20.
+Moving label "core.key\[91\]" from metal1 to viali in cell salsa20.
+Moving label "core.key\[93\]" from metal1 to viali in cell salsa20.
+Moving label "core.key\[95\]" from metal1 to via1 in cell salsa20.
+Moving label "core.keylen" from metal1 to viali in cell salsa20.
+Moving label "core.qr1.y0\[30\]" from metal2 to via1 in cell salsa20.
+Moving label "core.qr3.y0\[10\]" from metal2 to via2 in cell salsa20.
+Moving label "core.qr3.y0\[1\]" from metal2 to via2 in cell salsa20.
+Moving label "core.qr3.y0\[6\]" from metal2 to via2 in cell salsa20.
+Moving label "core.rounds_reg\[1\]" from metal2 to via1 in cell salsa20.
+Moving label "core.state4_reg\[4\]" from metal1 to viali in cell salsa20.
+Moving label "core.x11_reg\[8\]" from metal1 to via1 in cell salsa20.
+Moving label "core.x13_reg\[12\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x13_reg\[22\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x14_reg\[13\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x4_reg\[17\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x5_reg\[10\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x5_reg\[26\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x5_reg\[28\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x5_reg\[9\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x7_reg\[0\]" from metal2 to via2 in cell salsa20.
+Moving label "core.x7_reg\[9\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out0_reg\[21\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out0_reg\[9\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out10_reg\[4\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out11_reg\[28\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out12_reg\[16\]" from metal3 to via3 in cell salsa20.
+Moving label "data_out12_reg\[21\]" from metal3 to via3 in cell salsa20.
+Moving label "data_out12_reg\[2\]" from metal3 to via3 in cell salsa20.
+Moving label "data_out13_reg\[30\]" from metal2 to via1 in cell salsa20.
+Moving label "data_out13_reg\[3\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out14_reg\[14\]" from metal1 to via1 in cell salsa20.
+Moving label "data_out14_reg\[26\]" from metal3 to via3 in cell salsa20.
+Moving label "data_out14_reg\[3\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out14_reg\[4\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out1_reg\[16\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out1_reg\[8\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out2_reg\[10\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out4_reg\[23\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out5_reg\[5\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out6_reg\[15\]" from metal1 to viali in cell salsa20.
+Moving label "data_out6_reg\[22\]" from metal1 to viali in cell salsa20.
+Moving label "data_out7_reg\[28\]" from metal2 to via2 in cell salsa20.
+Moving label "data_out7_reg\[2\]" from metal2 to via2 in cell salsa20.
+Moving label "net101" from metal2 to via2 in cell salsa20.
+Moving label "net1019" from metal1 to via1 in cell salsa20.
+Moving label "net1050" from metal1 to viali in cell salsa20.
+Moving label "net1051" from metal1 to viali in cell salsa20.
+Moving label "net107" from metal2 to via2 in cell salsa20.
+Moving label "net1119" from metal2 to via2 in cell salsa20.
+Moving label "net112" from metal2 to via2 in cell salsa20.
+Moving label "net1150" from metal1 to via1 in cell salsa20.
+Moving label "net118" from metal2 to via2 in cell salsa20.
+Moving label "net1220" from metal1 to via1 in cell salsa20.
+Moving label "net1222" from metal1 to via1 in cell salsa20.
+Moving label "net1227" from metal2 to via1 in cell salsa20.
+Moving label "net1436" from metal1 to via1 in cell salsa20.
+Moving label "net1546" from metal2 to via1 in cell salsa20.
+Moving label "net1593" from metal1 to viali in cell salsa20.
+Moving label "net1620" from metal2 to via1 in cell salsa20.
+Moving label "net1651" from metal2 to via2 in cell salsa20.
+Moving label "net166" from metal3 to via3 in cell salsa20.
+Moving label "net1665" from metal1 to via1 in cell salsa20.
+Moving label "net1682" from metal1 to viali in cell salsa20.
+Moving label "net1708" from metal2 to via2 in cell salsa20.
+Moving label "net1731" from metal1 to viali in cell salsa20.
+Moving label "net1789" from metal1 to via1 in cell salsa20.
+Moving label "net184" from metal3 to via3 in cell salsa20.
+Moving label "net1885" from metal1 to via1 in cell salsa20.
+Moving label "net192" from metal3 to via3 in cell salsa20.
+Moving label "net197" from metal2 to via2 in cell salsa20.
+Moving label "net1985" from metal2 to via1 in cell salsa20.
+Moving label "net2" from metal2 to via2 in cell salsa20.
+Moving label "net2017" from metal1 to via1 in cell salsa20.
+Moving label "net2019" from metal1 to via1 in cell salsa20.
+Moving label "net2126" from metal1 to via1 in cell salsa20.
+Moving label "net2140" from metal1 to viali in cell salsa20.
+Moving label "net2176" from metal1 to via1 in cell salsa20.
+Moving label "net2219" from metal2 to via2 in cell salsa20.
+Moving label "net2246" from metal1 to via1 in cell salsa20.
+Moving label "net2279" from metal1 to via1 in cell salsa20.
+Moving label "net2363" from metal2 to via1 in cell salsa20.
+Moving label "net2450" from metal1 to viali in cell salsa20.
+Moving label "net2588" from metal1 to via1 in cell salsa20.
+Moving label "net2592" from metal1 to viali in cell salsa20.
+Moving label "net2680" from metal1 to viali in cell salsa20.
+Moving label "net2702" from metal1 to viali in cell salsa20.
+Moving label "net2723" from metal1 to via1 in cell salsa20.
+Moving label "net2767" from metal1 to via1 in cell salsa20.
+Moving label "net2782" from metal1 to via1 in cell salsa20.
+Moving label "net2797" from metal2 to via2 in cell salsa20.
+Moving label "net28" from metal2 to via2 in cell salsa20.
+Moving label "net2822" from metal1 to viali in cell salsa20.
+Moving label "net2865" from metal2 to via2 in cell salsa20.
+Moving label "net2945" from metal1 to viali in cell salsa20.
+Moving label "net3008" from metal1 to via1 in cell salsa20.
+Moving label "net3017" from metal1 to viali in cell salsa20.
+Moving label "net312" from metal1 to via1 in cell salsa20.
+Moving label "net3172" from metal1 to viali in cell salsa20.
+Moving label "net3299" from metal1 to via1 in cell salsa20.
+Moving label "net3342" from metal1 to via1 in cell salsa20.
+Moving label "net3488" from metal1 to viali in cell salsa20.
+Moving label "net3738" from metal1 to via1 in cell salsa20.
+Moving label "net3768" from metal1 to viali in cell salsa20.
+Moving label "net3809" from metal1 to viali in cell salsa20.
+Moving label "net4026" from metal2 to via1 in cell salsa20.
+Moving label "net4119" from metal2 to via2 in cell salsa20.
+Moving label "net425" from metal1 to via1 in cell salsa20.
+Moving label "net4291" from metal1 to via1 in cell salsa20.
+Moving label "net437" from metal2 to via2 in cell salsa20.
+Moving label "net4384" from metal2 to via2 in cell salsa20.
+Moving label "net44" from metal2 to via2 in cell salsa20.
+Moving label "net4470" from metal1 to viali in cell salsa20.
+Moving label "net46" from metal2 to via2 in cell salsa20.
+Moving label "net460" from metal1 to via1 in cell salsa20.
+Moving label "net4833" from metal1 to viali in cell salsa20.
+Moving label "net4841" from metal3 to via3 in cell salsa20.
+Moving label "net4852" from metal3 to via3 in cell salsa20.
+Moving label "net4879" from metal2 to via2 in cell salsa20.
+Moving label "net49" from metal2 to via2 in cell salsa20.
+Moving label "net52" from metal2 to via2 in cell salsa20.
+Moving label "net542" from metal1 to via1 in cell salsa20.
+Moving label "net550" from metal1 to via1 in cell salsa20.
+Moving label "net58" from metal2 to via2 in cell salsa20.
+Moving label "net62" from metal2 to via2 in cell salsa20.
+Moving label "net677" from metal2 to via2 in cell salsa20.
+Moving label "net691" from metal2 to via1 in cell salsa20.
+Moving label "net692" from metal1 to via1 in cell salsa20.
+Moving label "net699" from metal1 to viali in cell salsa20.
+Moving label "net71" from metal2 to via2 in cell salsa20.
+Moving label "net72" from metal2 to via2 in cell salsa20.
+Moving label "net75" from metal3 to via3 in cell salsa20.
+Moving label "net758" from metal2 to via1 in cell salsa20.
+Moving label "net793" from metal1 to via1 in cell salsa20.
+Moving label "net8" from metal2 to via2 in cell salsa20.
+Moving label "net850" from metal1 to viali in cell salsa20.
+Moving label "net864" from metal2 to via2 in cell salsa20.
+Moving label "net89" from metal2 to via2 in cell salsa20.
+Moving label "net995" from metal1 to via1 in cell salsa20.
+Moving label "ready_reg" from metal3 to via3 in cell salsa20.
+Moving label "write_data[20]" from metal2 to via2 in cell salsa20.
+Moving label "write_data[24]" from metal2 to via2 in cell salsa20.
+Moving label "write_data[26]" from metal2 to via2 in cell salsa20.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  1106.315 x 1117.035  ( 0.000,  0.000), ( 1106.315,  1117.035)  1235792.500
+lambda:   110631.50 x 111703.50  (  0.00,  0.00 ), ( 110631.50,  111703.50)  12357925888.00
+internal: 221263 x 223407  (     0,  0    ), ( 221263,  223407)  49431703041
+   Generating output for cell sky130_fd_sc_hd__diode_2
+   Generating output for cell sky130_fd_sc_hd__decap_6
+   Generating output for cell sky130_fd_sc_hd__fill_2
+   Generating output for cell sky130_ef_sc_hd__decap_12
+   Generating output for cell sky130_fd_sc_hd__decap_3
+   Generating output for cell sky130_fd_sc_hd__buf_12
+   Generating output for cell sky130_fd_sc_hd__fill_1
+   Generating output for cell sky130_fd_sc_hd__tapvpwrvgnd_1
+   Generating output for cell sky130_fd_sc_hd__buf_4
+   Generating output for cell sky130_fd_sc_hd__clkbuf_4
+   Generating output for cell sky130_fd_sc_hd__decap_4
+   Generating output for cell sky130_fd_sc_hd__decap_8
+   Generating output for cell sky130_fd_sc_hd__clkbuf_1
+   Generating output for cell sky130_fd_sc_hd__and2_1
+   Generating output for cell sky130_fd_sc_hd__mux2_1
+   Generating output for cell sky130_fd_sc_hd__dlygate4sd3_1
+   Generating output for cell sky130_fd_sc_hd__o211a_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_1
+   Generating output for cell sky130_fd_sc_hd__or2_1
+   Generating output for cell sky130_fd_sc_hd__buf_2
+   Generating output for cell sky130_fd_sc_hd__xnor2_2
+   Generating output for cell sky130_fd_sc_hd__xnor2_4
+   Generating output for cell sky130_fd_sc_hd__o221a_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_2
+   Generating output for cell sky130_fd_sc_hd__clkbuf_2
+   Generating output for cell sky130_fd_sc_hd__buf_1
+   Generating output for cell sky130_fd_sc_hd__nand2_1
+   Generating output for cell sky130_fd_sc_hd__nor2_1
+   Generating output for cell sky130_fd_sc_hd__o21ai_1
+   Generating output for cell sky130_fd_sc_hd__xnor2_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_16
+   Generating output for cell sky130_fd_sc_hd__o21a_2
+   Generating output for cell sky130_fd_sc_hd__a21o_1
+   Generating output for cell sky130_fd_sc_hd__dlymetal6s2s_1
+   Generating output for cell sky130_fd_sc_hd__buf_8
+   Generating output for cell sky130_fd_sc_hd__clkbuf_8
+   Generating output for cell sky130_fd_sc_hd__xor2_1
+   Generating output for cell sky130_fd_sc_hd__o21a_1
+   Generating output for cell sky130_fd_sc_hd__inv_2
+   Generating output for cell sky130_fd_sc_hd__clkdlybuf4s25_1
+   Generating output for cell sky130_fd_sc_hd__and4_1
+   Generating output for cell sky130_fd_sc_hd__or2b_1
+   Generating output for cell sky130_fd_sc_hd__a31o_1
+   Generating output for cell sky130_fd_sc_hd__a21oi_1
+   Generating output for cell sky130_fd_sc_hd__and3_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_4
+   Generating output for cell sky130_fd_sc_hd__a21boi_2
+   Generating output for cell sky130_fd_sc_hd__o31ai_1
+   Generating output for cell sky130_fd_sc_hd__a21bo_1
+   Generating output for cell sky130_fd_sc_hd__xor2_2
+   Generating output for cell sky130_fd_sc_hd__o21ai_2
+   Generating output for cell sky130_fd_sc_hd__and3_2
+   Generating output for cell sky130_fd_sc_hd__o31a_1
+   Generating output for cell sky130_fd_sc_hd__or3_1
+   Generating output for cell sky130_fd_sc_hd__o21ai_4
+   Generating output for cell sky130_fd_sc_hd__buf_6
+   Generating output for cell sky130_fd_sc_hd__nand3_1
+   Generating output for cell sky130_fd_sc_hd__a21o_2
+   Generating output for cell sky130_fd_sc_hd__and3b_1
+   Generating output for cell sky130_fd_sc_hd__and2_2
+   Generating output for cell sky130_fd_sc_hd__nand2_2
+   Generating output for cell sky130_fd_sc_hd__a221o_1
+   Generating output for cell sky130_fd_sc_hd__or2_2
+   Generating output for cell sky130_fd_sc_hd__or3_2
+   Generating output for cell sky130_fd_sc_hd__a21oi_2
+   Generating output for cell sky130_fd_sc_hd__inv_4
+   Generating output for cell sky130_fd_sc_hd__a22o_1
+   Generating output for cell sky130_fd_sc_hd__a22o_2
+   Generating output for cell sky130_fd_sc_hd__o21ba_1
+   Generating output for cell sky130_fd_sc_hd__a21oi_4
+   Generating output for cell sky130_fd_sc_hd__and2_4
+   Generating output for cell sky130_fd_sc_hd__nor2_2
+   Generating output for cell sky130_fd_sc_hd__or2_4
+   Generating output for cell sky130_fd_sc_hd__nor3_2
+   Generating output for cell sky130_fd_sc_hd__nor2_8
+   Generating output for cell sky130_fd_sc_hd__clkinv_4
+   Generating output for cell sky130_fd_sc_hd__inv_6
+   Generating output for cell sky130_fd_sc_hd__o31a_4
+   Generating output for cell sky130_fd_sc_hd__a221o_4
+   Generating output for cell sky130_fd_sc_hd__or4_1
+   Generating output for cell sky130_fd_sc_hd__o31a_2
+   Generating output for cell sky130_fd_sc_hd__and3_4
+   Generating output for cell sky130_fd_sc_hd__or4b_4
+   Generating output for cell sky130_fd_sc_hd__or4bb_4
+   Generating output for cell sky130_fd_sc_hd__nand2b_2
+   Generating output for cell sky130_fd_sc_hd__and3b_2
+   Generating output for cell sky130_fd_sc_hd__nand2b_4
+   Generating output for cell sky130_fd_sc_hd__or4b_1
+   Generating output for cell sky130_fd_sc_hd__and2b_1
+   Generating output for cell sky130_fd_sc_hd__a221o_2
+   Generating output for cell sky130_fd_sc_hd__a211o_1
+   Generating output for cell sky130_fd_sc_hd__nand3b_4
+   Generating output for cell sky130_fd_sc_hd__or3b_1
+   Generating output for cell sky130_fd_sc_hd__nor2_4
+   Generating output for cell sky130_fd_sc_hd__nand2_4
+   Generating output for cell sky130_fd_sc_hd__or3b_4
+   Generating output for cell sky130_fd_sc_hd__nand3_4
+   Generating output for cell sky130_fd_sc_hd__or4_4
+   Generating output for cell sky130_fd_sc_hd__o311a_1
+   Generating output for cell sky130_fd_sc_hd__and4_2
+   Generating output for cell sky130_fd_sc_hd__a2111o_1
+   Generating output for cell sky130_fd_sc_hd__o211a_2
+   Generating output for cell sky130_fd_sc_hd__and4_4
+   Generating output for cell sky130_fd_sc_hd__and4b_1
+   Generating output for cell sky130_fd_sc_hd__o32a_1
+   Generating output for cell sky130_fd_sc_hd__nand4_2
+   Generating output for cell sky130_fd_sc_hd__or4b_2
+   Generating output for cell sky130_fd_sc_hd__nand4_4
+   Generating output for cell sky130_fd_sc_hd__o21a_4
+   Generating output for cell sky130_fd_sc_hd__a2111o_2
+   Generating output for cell sky130_fd_sc_hd__a21boi_4
+   Generating output for cell sky130_fd_sc_hd__a211o_2
+   Generating output for cell sky130_fd_sc_hd__mux2_2
+   Generating output for cell sky130_fd_sc_hd__mux2_4
+   Generating output for cell sky130_fd_sc_hd__xor2_4
+   Generating output for cell sky130_fd_sc_hd__mux2_8
+   Generating output for cell sky130_fd_sc_hd__a21bo_2
+   Generating output for cell sky130_fd_sc_hd__o221ai_1
+   Generating output for cell sky130_fd_sc_hd__and4bb_4
+   Generating output for cell sky130_fd_sc_hd__and3b_4
+   Generating output for cell sky130_fd_sc_hd__or2b_2
+   Generating output for cell sky130_fd_sc_hd__a311o_2
+   Generating output for cell sky130_fd_sc_hd__a2bb2o_1
+   Generating output for cell sky130_fd_sc_hd__a2bb2o_2
+   Generating output for cell sky130_fd_sc_hd__a21boi_1
+   Generating output for cell sky130_fd_sc_hd__and2b_2
+   Generating output for cell sky130_fd_sc_hd__a32o_1
+   Generating output for cell sky130_fd_sc_hd__nand3_2
+   Generating output for cell sky130_fd_sc_hd__o21bai_4
+   Generating output for cell sky130_fd_sc_hd__a32o_4
+   Generating output for cell sky130_fd_sc_hd__nand3b_1
+   Generating output for cell sky130_fd_sc_hd__o31ai_2
+   Generating output for cell sky130_fd_sc_hd__a32o_2
+   Generating output for cell sky130_fd_sc_hd__a31o_2
+   Generating output for cell sky130_fd_sc_hd__nand4_1
+   Generating output for cell sky130_fd_sc_hd__a211oi_2
+   Generating output for cell sky130_fd_sc_hd__o32ai_4
+   Generating output for cell sky130_fd_sc_hd__o311a_2
+   Generating output for cell sky130_fd_sc_hd__o22a_1
+   Generating output for cell sky130_fd_sc_hd__a211oi_4
+   Generating output for cell sky130_fd_sc_hd__o221ai_4
+   Generating output for cell sky130_fd_sc_hd__or4_2
+   Generating output for cell sky130_fd_sc_hd__o211a_4
+   Generating output for cell sky130_fd_sc_hd__o31ai_4
+   Generating output for cell sky130_fd_sc_hd__a211oi_1
+   Generating output for cell sky130_fd_sc_hd__o21ba_2
+   Generating output for cell sky130_fd_sc_hd__o21bai_2
+   Generating output for cell sky130_fd_sc_hd__and4bb_1
+   Generating output for cell sky130_fd_sc_hd__or3b_2
+   Generating output for cell sky130_fd_sc_hd__a31oi_2
+   Generating output for cell sky130_fd_sc_hd__o21bai_1
+   Generating output for cell sky130_fd_sc_hd__a221oi_4
+   Generating output for cell sky130_fd_sc_hd__nor3_1
+   Generating output for cell sky130_fd_sc_hd__o211ai_1
+   Generating output for cell sky130_fd_sc_hd__nand2_8
+   Generating output for cell sky130_fd_sc_hd__or2b_4
+   Generating output for cell sky130_fd_sc_hd__a2111oi_1
+   Generating output for cell sky130_fd_sc_hd__o2111a_2
+   Generating output for cell sky130_fd_sc_hd__a41o_1
+   Generating output for cell sky130_fd_sc_hd__a311o_1
+   Generating output for cell sky130_fd_sc_hd__nor3b_1
+   Generating output for cell sky130_fd_sc_hd__o32a_4
+   Generating output for cell sky130_fd_sc_hd__or3_4
+   Generating output for cell sky130_fd_sc_hd__o311ai_4
+   Generating output for cell sky130_fd_sc_hd__a31oi_4
+   Generating output for cell sky130_fd_sc_hd__o221a_2
+   Generating output for cell sky130_fd_sc_hd__a31o_4
+   Generating output for cell sky130_fd_sc_hd__nor4_1
+   Generating output for cell sky130_fd_sc_hd__a31oi_1
+   Generating output for cell sky130_fd_sc_hd__o211ai_4
+   Generating output for cell sky130_fd_sc_hd__nand3b_2
+   Generating output for cell sky130_fd_sc_hd__a311oi_2
+   Generating output for cell sky130_fd_sc_hd__o211ai_2
+   Generating output for cell sky130_fd_sc_hd__a22oi_4
+   Generating output for cell sky130_fd_sc_hd__o2bb2a_1
+   Generating output for cell sky130_fd_sc_hd__o22a_2
+   Generating output for cell sky130_fd_sc_hd__o2bb2a_2
+   Generating output for cell sky130_fd_sc_hd__a21o_4
+   Generating output for cell sky130_fd_sc_hd__o2111ai_4
+   Generating output for cell sky130_fd_sc_hd__a311oi_4
+   Generating output for cell salsa20
+[INFO]: GDS Write Complete
