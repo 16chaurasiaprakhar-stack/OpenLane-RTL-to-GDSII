@@ -276,7 +276,7 @@ bash scripts/run_openlane.sh run_tapeout
 > 2. Standard cell power rails short directly against the macro's dedicated power ring. The 10 µm halo provides a clean keepout zone for power strap drops, via arrays, and pin escape routing.
 
 ### Q3: How did you balance clock skew when driving both standard cell DFFs and SRAM clock pins?
-> **Answer:** SRAM macro clock pins present a massive capacitive load (50 fF to 100 fF) compared to standard D-flip-flops (~3 fF). If a standard leaf buffer drives both, the macro branch suffers high insertion delay, destroying clock skew across the chip. I addressed this by configuring TritonCTS to isolate the SRAM clock branch, inserting a dedicated high-drive clock buffer (`sky130_fd_sc_hd__clkbuf_16`) directly before the macro clock pin and applying Non-Default Routing (NDR: 2x width, 2x spacing) to minimize RC delay and crosstalk jitter.
+
 
 
 
