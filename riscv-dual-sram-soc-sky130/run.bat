@@ -7,8 +7,6 @@ cd /d "%~dp0"
 echo =======================================================================
 echo   MACRO-DOMINATED SOC SUBSYSTEM PHYSICAL IMPLEMENTATION SUITE
 echo   Process: SkyWater 130nm (sky130_fd_sc_hd)
-echo   Target: Physical Design / STA Engineer (NVIDIA, Qualcomm)
-echo   Candidate: Prakhar Chaurasia (3rd Yr B.Tech ECE)
 echo =======================================================================
 echo.
 echo Select Execution Target:
