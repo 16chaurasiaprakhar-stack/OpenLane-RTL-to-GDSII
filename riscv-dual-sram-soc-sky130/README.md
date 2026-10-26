@@ -278,8 +278,7 @@ bash scripts/run_openlane.sh run_tapeout
 ### Q3: How did you balance clock skew when driving both standard cell DFFs and SRAM clock pins?
 > **Answer:** SRAM macro clock pins present a massive capacitive load (50 fF to 100 fF) compared to standard D-flip-flops (~3 fF). If a standard leaf buffer drives both, the macro branch suffers high insertion delay, destroying clock skew across the chip. I addressed this by configuring TritonCTS to isolate the SRAM clock branch, inserting a dedicated high-drive clock buffer (`sky130_fd_sc_hd__clkbuf_16`) directly before the macro clock pin and applying Non-Default Routing (NDR: 2x width, 2x spacing) to minimize RC delay and crosstalk jitter.
 
-### Q4: How did you resolve the sub-micron off-grid pin violations during detailed routing?
-> **Answer:** SkyWater 130nm enforces a strict 5 nm ($0.005\ \mu\text{m}$) manufacturing grid. OpenRAM macro LEF generators can output floating-point pitch values (e.g. $41.543\ \mu\text{m}$), causing TritonRoute to halt with `DRT-0416: offgrid pin shape`. I engineered a snapping pass (`round(y / 0.005) * 0.005`) that aligns all pin polygons to exact multiples of the manufacturing grid, achieving 0 detailed routing violations.
+
 
 ---
 
