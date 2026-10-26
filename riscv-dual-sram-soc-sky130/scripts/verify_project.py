@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
+
 """
 ASIC & Physical Design Automated Verification Suite
 Project: Macro-Dominated SoC Subsystem (PicoRV32 + Dual OpenRAM 1KB Macros)
 Process: SkyWater 130nm (sky130_fd_sc_hd)
-Target: Tier-1 ASIC Engineering Signoff (NVIDIA / Qualcomm Standards)
 """
 
 import os
