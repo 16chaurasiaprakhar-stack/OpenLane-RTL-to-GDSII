@@ -1,10 +1,8 @@
 # Tapeout-Ready 32-Bit RISC-V SoC Subsystem with Dual OpenRAM SRAM Macros on SkyWater 130nm
 
 **Author:** Prakhar Chaurasia  
-**Target Role:** Physical Design / STA Engineer (Qualcomm, NVIDIA, Apple, AMD)  
 **Process Technology:** SkyWater 130nm CMOS (`sky130_fd_sc_hd`)  
 **Design Architecture:** 32-bit RISC-V RV32I Processor + Dual 1KB OpenRAM SRAM Macros  
-**EDA Flow:** OpenLane v1.0.2 / OpenROAD, Yosys, OpenSTA, Magic VLSI, Netgen, KLayout, Icarus Verilog  
 **Tapeout Signoff:** Magic DRC Clean (0 Violations), TritonRoute Clean (0 Violations), WNS = 0.00 ns @ 80 MHz, Netgen LVS Device Match (11,373 instances)
 
 ---
