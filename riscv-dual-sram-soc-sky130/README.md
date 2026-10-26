@@ -275,7 +275,6 @@ bash scripts/run_openlane.sh run_tapeout
 > 1. Standard cell pins occupy access tracks to SRAM pins, causing detailed routing pin-access DRC violations.
 > 2. Standard cell power rails short directly against the macro's dedicated power ring. The 10 µm halo provides a clean keepout zone for power strap drops, via arrays, and pin escape routing.
 
-### Q3: How did you balance clock skew when driving both standard cell DFFs and SRAM clock pins?
 
 
 
