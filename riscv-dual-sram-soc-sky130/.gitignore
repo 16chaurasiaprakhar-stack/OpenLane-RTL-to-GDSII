@@ -1,0 +1,16 @@
+# Build and simulation artifacts
+build/
+*.vvp
+*.vcd
+
+# OpenLane execution runs (multi-gigabyte intermediate files)
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor and OS swap files
+*.swp
+*~
+.DS_Store
+.nfs*

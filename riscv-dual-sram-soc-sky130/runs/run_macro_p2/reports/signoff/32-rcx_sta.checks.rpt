@@ -1,0 +1,929 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: resetn (input port clocked by clk)
+Endpoint: _16845_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.50    2.50 ^ input external delay
+                  0.03    0.02    2.52 ^ resetn (in)
+     1    0.00                           resetn (net)
+                  0.03    0.00    2.52 ^ hold6/A (sky130_fd_sc_hd__dlygate4sd3_1)
+                  0.10    0.60    3.11 ^ hold6/X (sky130_fd_sc_hd__dlygate4sd3_1)
+     1    0.01                           net47 (net)
+                  0.10    0.00    3.11 ^ input4/A (sky130_fd_sc_hd__buf_8)
+                  0.23    0.22    3.34 ^ input4/X (sky130_fd_sc_hd__buf_8)
+     5    0.14                           net4 (net)
+                  0.26    0.06    3.40 ^ fanout37/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.19    0.32    3.71 ^ fanout37/X (sky130_fd_sc_hd__clkbuf_8)
+    10    0.11                           net37 (net)
+                  0.19    0.01    3.72 ^ _16845_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+                                  3.72   data arrival time
+
+                         12.50   12.50   clock clk (rise edge)
+                          0.00   12.50   clock source latency
+                  0.57    0.38   12.88 ^ clk (in)
+     2    0.13                           clk (net)
+                  0.57    0.00   12.88 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.15    0.32   13.20 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     2    0.14                           clknet_0_clk (net)
+                  0.15    0.01   13.21 ^ clkbuf_1_1_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.23    0.29   13.49 ^ clkbuf_1_1_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     6    0.13                           clknet_1_1_0_clk (net)
+                  0.23    0.01   13.50 ^ clkbuf_3_5_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.08    0.20   13.70 ^ clkbuf_3_5_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     2    0.04                           clknet_3_5_0_clk (net)
+                  0.08    0.00   13.71 ^ clkbuf_4_11__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.16    0.22   13.92 ^ clkbuf_4_11__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+    11    0.15                           clknet_4_11__leaf_clk (net)
+                  0.16    0.00   13.93 ^ clkbuf_leaf_50_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.07    0.18   14.11 ^ clkbuf_leaf_50_clk/X (sky130_fd_sc_hd__clkbuf_16)
+    16    0.05                           clknet_leaf_50_clk (net)
+                  0.07    0.00   14.11 ^ _16845_/CLK (sky130_fd_sc_hd__dfrtp_4)
+                         -0.25   13.86   clock uncertainty
+                          0.00   13.86   clock reconvergence pessimism
+                          0.18   14.04   library recovery time
+                                 14.04   data required time
+-----------------------------------------------------------------------------
+                                 14.04   data required time
+                                 -3.72   data arrival time
+-----------------------------------------------------------------------------
+                                 10.32   slack (MET)
+
+
+Startpoint: _16452_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _16959_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock source latency
+                  0.57    0.42    0.42 ^ clk (in)
+     2    0.13                           clk (net)
+                  0.57    0.00    0.42 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.15    0.36    0.78 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     2    0.14                           clknet_0_clk (net)
+                  0.15    0.01    0.78 ^ clkbuf_1_1_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.23    0.32    1.10 ^ clkbuf_1_1_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     6    0.13                           clknet_1_1_0_clk (net)
+                  0.23    0.01    1.10 ^ clkbuf_3_4_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.08    0.23    1.33 ^ clkbuf_3_4_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     2    0.04                           clknet_3_4_0_clk (net)
+                  0.08    0.00    1.33 ^ clkbuf_4_9__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.16    0.24    1.58 ^ clkbuf_4_9__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+    10    0.15                           clknet_4_9__leaf_clk (net)
+                  0.16    0.00    1.58 ^ clkbuf_leaf_39_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.06    0.19    1.77 ^ clkbuf_leaf_39_clk/X (sky130_fd_sc_hd__clkbuf_16)
+    11    0.04                           clknet_leaf_39_clk (net)
+                  0.06    0.00    1.78 ^ _16452_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.14    0.40    2.18 ^ _16452_/Q (sky130_fd_sc_hd__dfxtp_1)
+     3    0.01                           u_core.irq_mask[26] (net)
+                  0.14    0.00    2.18 ^ _08258_/A_N (sky130_fd_sc_hd__and2b_1)
+                  0.10    0.27    2.45 v _08258_/X (sky130_fd_sc_hd__and2b_1)
+     2    0.02                           _02606_ (net)
+                  0.10    0.00    2.45 v _08262_/A (sky130_fd_sc_hd__or4_4)
+                  0.09    0.59    3.03 v _08262_/X (sky130_fd_sc_hd__or4_4)
+     1    0.01                           _02610_ (net)
+                  0.09    0.00    3.03 v _08273_/B (sky130_fd_sc_hd__or4_4)
+                  0.11    0.60    3.63 v _08273_/X (sky130_fd_sc_hd__or4_4)
+     1    0.02                           _02621_ (net)
+                  0.11    0.00    3.63 v _08296_/A1 (sky130_fd_sc_hd__o211a_4)
+                  0.08    0.34    3.97 v _08296_/X (sky130_fd_sc_hd__o211a_4)
+     8    0.04                           _02644_ (net)
+                  0.08    0.00    3.97 v _08299_/C (sky130_fd_sc_hd__or4_4)
+                  0.09    0.52    4.50 v _08299_/X (sky130_fd_sc_hd__or4_4)
+     1    0.01                           _02647_ (net)
+                  0.09    0.00    4.50 v _08300_/A (sky130_fd_sc_hd__buf_8)
+                  0.06    0.18    4.67 v _08300_/X (sky130_fd_sc_hd__buf_8)
+     8    0.06                           _02648_ (net)
+                  0.06    0.01    4.68 v _13947_/C (sky130_fd_sc_hd__nor4_4)
+                  0.27    0.28    4.96 ^ _13947_/Y (sky130_fd_sc_hd__nor4_4)
+     3    0.01                           _07571_ (net)
+                  0.27    0.00    4.96 ^ max_cap14/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.07    0.19    5.15 ^ max_cap14/X (sky130_fd_sc_hd__clkbuf_2)
+     4    0.01                           net14 (net)
+                  0.07    0.00    5.15 ^ _13960_/C (sky130_fd_sc_hd__and4_1)
+                  0.15    0.28    5.43 ^ _13960_/X (sky130_fd_sc_hd__and4_1)
+     5    0.01                           _07580_ (net)
+                  0.15    0.00    5.43 ^ _13976_/C (sky130_fd_sc_hd__and4_1)
+                  0.12    0.28    5.71 ^ _13976_/X (sky130_fd_sc_hd__and4_1)
+     5    0.01                           _07592_ (net)
+                  0.12    0.00    5.71 ^ _13988_/D (sky130_fd_sc_hd__and4_1)
+                  0.13    0.28    5.99 ^ _13988_/X (sky130_fd_sc_hd__and4_1)
+     5    0.01                           _07601_ (net)
+                  0.13    0.00    5.99 ^ _14000_/D (sky130_fd_sc_hd__and4_1)
+                  0.14    0.29    6.28 ^ _14000_/X (sky130_fd_sc_hd__and4_1)
+     5    0.01                           _07610_ (net)
+                  0.14    0.00    6.28 ^ _14013_/D (sky130_fd_sc_hd__and4_1)
+                  0.16    0.31    6.60 ^ _14013_/X (sky130_fd_sc_hd__and4_1)
+     6    0.02                           _07620_ (net)
+                  0.16    0.00    6.60 ^ _14025_/D (sky130_fd_sc_hd__and4_1)
+                  0.11    0.28    6.87 ^ _14025_/X (sky130_fd_sc_hd__and4_1)
+     4    0.01                           _07629_ (net)
+                  0.11    0.00    6.87 ^ _14033_/C (sky130_fd_sc_hd__and3_1)
+                  0.12    0.23    7.10 ^ _14033_/X (sky130_fd_sc_hd__and3_1)
+     4    0.01                           _07635_ (net)
+                  0.12    0.00    7.11 ^ _14037_/A (sky130_fd_sc_hd__and2_4)
+                  0.05    0.17    7.28 ^ _14037_/X (sky130_fd_sc_hd__and2_4)
+     4    0.01                           _07638_ (net)
+                  0.05    0.00    7.28 ^ _14045_/C (sky130_fd_sc_hd__and3_1)
+                  0.13    0.23    7.51 ^ _14045_/X (sky130_fd_sc_hd__and3_1)
+     4    0.01                           _07644_ (net)
+                  0.13    0.00    7.51 ^ _14049_/A (sky130_fd_sc_hd__and2_4)
+                  0.06    0.19    7.70 ^ _14049_/X (sky130_fd_sc_hd__and2_4)
+     4    0.02                           _07647_ (net)
+                  0.06    0.00    7.70 ^ _14055_/B (sky130_fd_sc_hd__nand2_1)
+                  0.07    0.06    7.77 v _14055_/Y (sky130_fd_sc_hd__nand2_1)
+     1    0.00                           _07652_ (net)
+                  0.07    0.00    7.77 v _14056_/C (sky130_fd_sc_hd__and3_1)
+                  0.05    0.21    7.97 v _14056_/X (sky130_fd_sc_hd__and3_1)
+     1    0.01                           _07653_ (net)
+                  0.05    0.00    7.97 v _14057_/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.03    0.10    8.07 v _14057_/X (sky130_fd_sc_hd__clkbuf_1)
+     1    0.00                           _00706_ (net)
+                  0.03    0.00    8.07 v _16959_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  8.07   data arrival time
+
+                         12.50   12.50   clock clk (rise edge)
+                          0.00   12.50   clock source latency
+                  0.57    0.38   12.88 ^ clk (in)
+     2    0.13                           clk (net)
+                  0.57    0.00   12.88 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.15    0.32   13.20 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+     2    0.14                           clknet_0_clk (net)
+                  0.15    0.01   13.21 ^ clkbuf_1_1_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.23    0.29   13.49 ^ clkbuf_1_1_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     6    0.13                           clknet_1_1_0_clk (net)
+                  0.23    0.01   13.50 ^ clkbuf_3_5_0_clk/A (sky130_fd_sc_hd__clkbuf_8)
+                  0.08    0.20   13.70 ^ clkbuf_3_5_0_clk/X (sky130_fd_sc_hd__clkbuf_8)
+     2    0.04                           clknet_3_5_0_clk (net)
+                  0.08    0.00   13.71 ^ clkbuf_4_11__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.16    0.22   13.92 ^ clkbuf_4_11__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+    11    0.15                           clknet_4_11__leaf_clk (net)
+                  0.16    0.00   13.93 ^ clkbuf_leaf_42_clk/A (sky130_fd_sc_hd__clkbuf_16)
+                  0.06    0.17   14.10 ^ clkbuf_leaf_42_clk/X (sky130_fd_sc_hd__clkbuf_16)
+    10    0.04                           clknet_leaf_42_clk (net)
+                  0.06    0.00   14.10 ^ _16959_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.25   13.85   clock uncertainty
+                          0.10   13.95   clock reconvergence pessimism
+                         -0.10   13.85   library setup time
+                                 13.85   data required time
+-----------------------------------------------------------------------------
+                                 13.85   data required time
+                                 -8.07   data arrival time
+-----------------------------------------------------------------------------
+                                  5.78   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+_16893_/Q                                10     59    -49 (VIOLATED)
+_17092_/Q                                10     59    -49 (VIOLATED)
+_17114_/Q                                10     57    -47 (VIOLATED)
+_17088_/Q                                10     54    -44 (VIOLATED)
+_17089_/Q                                10     54    -44 (VIOLATED)
+_17090_/Q                                10     54    -44 (VIOLATED)
+_17093_/Q                                10     54    -44 (VIOLATED)
+_17095_/Q                                10     47    -37 (VIOLATED)
+_17096_/Q                                10     47    -37 (VIOLATED)
+_17097_/Q                                10     47    -37 (VIOLATED)
+_17098_/Q                                10     47    -37 (VIOLATED)
+_17099_/Q                                10     47    -37 (VIOLATED)
+_17100_/Q                                10     47    -37 (VIOLATED)
+_17101_/Q                                10     47    -37 (VIOLATED)
+_17102_/Q                                10     47    -37 (VIOLATED)
+_17103_/Q                                10     47    -37 (VIOLATED)
+_17104_/Q                                10     47    -37 (VIOLATED)
+_17106_/Q                                10     47    -37 (VIOLATED)
+_17107_/Q                                10     47    -37 (VIOLATED)
+_17108_/Q                                10     47    -37 (VIOLATED)
+_17109_/Q                                10     47    -37 (VIOLATED)
+_17110_/Q                                10     47    -37 (VIOLATED)
+_17111_/Q                                10     47    -37 (VIOLATED)
+_17112_/Q                                10     47    -37 (VIOLATED)
+_17113_/Q                                10     47    -37 (VIOLATED)
+_17115_/Q                                10     47    -37 (VIOLATED)
+_17116_/Q                                10     47    -37 (VIOLATED)
+_17117_/Q                                10     47    -37 (VIOLATED)
+_17118_/Q                                10     47    -37 (VIOLATED)
+_16894_/Q                                10     44    -34 (VIOLATED)
+load_slew9/X                             10     35    -25 (VIOLATED)
+wire32/X                                 10     34    -24 (VIOLATED)
+wire35/X                                 10     34    -24 (VIOLATED)
+wire36/X                                 10     34    -24 (VIOLATED)
+_17091_/Q                                10     29    -19 (VIOLATED)
+input3/X                                 10     24    -14 (VIOLATED)
+clkbuf_leaf_16_clk/X                     10     22    -12 (VIOLATED)
+clkbuf_leaf_61_clk/X                     10     22    -12 (VIOLATED)
+clkbuf_leaf_5_clk/X                      10     21    -11 (VIOLATED)
+clkbuf_leaf_136_clk/X                    10     20    -10 (VIOLATED)
+clkbuf_leaf_38_clk/X                     10     20    -10 (VIOLATED)
+clkbuf_leaf_53_clk/X                     10     20    -10 (VIOLATED)
+clkbuf_leaf_67_clk/X                     10     20    -10 (VIOLATED)
+clkbuf_leaf_6_clk/X                      10     20    -10 (VIOLATED)
+_17094_/Q                                10     19     -9 (VIOLATED)
+input1/X                                 10     19     -9 (VIOLATED)
+_09305_/X                                10     18     -8 (VIOLATED)
+clkbuf_leaf_57_clk/X                     10     18     -8 (VIOLATED)
+clkbuf_leaf_79_clk/X                     10     18     -8 (VIOLATED)
+clkbuf_leaf_109_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_110_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_114_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_116_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_123_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_138_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_139_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_49_clk/X                     10     17     -7 (VIOLATED)
+clkbuf_leaf_54_clk/X                     10     17     -7 (VIOLATED)
+clkbuf_leaf_60_clk/X                     10     17     -7 (VIOLATED)
+load_slew2/X                             10     17     -7 (VIOLATED)
+clkbuf_leaf_100_clk/X                    10     16     -6 (VIOLATED)
+clkbuf_leaf_117_clk/X                    10     16     -6 (VIOLATED)
+clkbuf_leaf_131_clk/X                    10     16     -6 (VIOLATED)
+clkbuf_leaf_14_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_43_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_50_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_70_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_86_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_87_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_94_clk/X                     10     16     -6 (VIOLATED)
+_16920_/Q                                10     15     -5 (VIOLATED)
+clkbuf_leaf_101_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_105_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_108_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_111_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_132_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_137_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_15_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_36_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_68_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_71_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_81_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_4_6__f_clk/X                      10     14     -4 (VIOLATED)
+clkbuf_leaf_118_clk/X                    10     14     -4 (VIOLATED)
+clkbuf_leaf_129_clk/X                    10     14     -4 (VIOLATED)
+clkbuf_leaf_130_clk/X                    10     14     -4 (VIOLATED)
+clkbuf_leaf_133_clk/X                    10     14     -4 (VIOLATED)
+clkbuf_leaf_44_clk/X                     10     14     -4 (VIOLATED)
+_10066_/X                                10     13     -3 (VIOLATED)
+clkbuf_leaf_103_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_107_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_112_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_119_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_120_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_18_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_23_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_48_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_64_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_69_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_7_clk/X                      10     13     -3 (VIOLATED)
+clkbuf_leaf_93_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_102_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_113_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_124_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_126_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_127_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_128_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_135_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_17_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_33_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_3_clk/X                      10     12     -2 (VIOLATED)
+clkbuf_leaf_4_clk/X                      10     12     -2 (VIOLATED)
+clkbuf_leaf_82_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_85_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_88_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_95_clk/X                     10     12     -2 (VIOLATED)
+_09630_/X                                10     11        (VIOLATED)
+_09973_/X                                10     11        (VIOLATED)
+_10083_/X                                10     11        (VIOLATED)
+clkbuf_4_11__f_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_121_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_134_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_2_clk/X                      10     11        (VIOLATED)
+clkbuf_leaf_34_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_37_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_39_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_66_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_78_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_83_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_89_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_90_clk/X                     10     11        (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 4 unannotated drivers.
+ u_sram_data_38/HI
+ u_sram_data_39/HI
+ u_sram_inst_40/HI
+ u_sram_inst_41/HI
+Found 60 partially unannotated drivers.
+ _16887_/Q
+  u_sram_data/addr[7]
+ _16888_/Q
+  u_sram_data/addr[6]
+ _16889_/Q
+  u_sram_data/addr[5]
+ _16890_/Q
+  u_sram_data/addr[4]
+ _16891_/Q
+  u_sram_data/addr[3]
+ _16892_/Q
+  u_sram_data/addr[2]
+ _16893_/Q
+  u_sram_data/addr[1]
+  u_sram_inst/addr[1]
+  ANTENNA_72/DIODE
+  ANTENNA_73/DIODE
+  ANTENNA_74/DIODE
+  ANTENNA_75/DIODE
+  ANTENNA_76/DIODE
+  ANTENNA_77/DIODE
+  ANTENNA_78/DIODE
+  ANTENNA_79/DIODE
+  ANTENNA_80/DIODE
+  ANTENNA_81/DIODE
+  ANTENNA_82/DIODE
+ _16894_/Q
+  u_sram_data/addr[0]
+  u_sram_inst/addr[0]
+  ANTENNA_126/DIODE
+  ANTENNA_127/DIODE
+  ANTENNA_128/DIODE
+  ANTENNA_129/DIODE
+  ANTENNA_130/DIODE
+  ANTENNA_131/DIODE
+  ANTENNA_132/DIODE
+  ANTENNA_133/DIODE
+ _16917_/Q
+  u_sram_data/wmask[3]
+ _16918_/Q
+  u_sram_data/wmask[2]
+ _16919_/Q
+  u_sram_data/wmask[1]
+ _16920_/Q
+  _08342_/C
+  u_sram_inst/wmask[0]
+  ANTENNA_2400/DIODE
+  ANTENNA_2401/DIODE
+  ANTENNA_2402/DIODE
+  ANTENNA_2403/DIODE
+  ANTENNA_2408/DIODE
+  ANTENNA_2409/DIODE
+  ANTENNA_2410/DIODE
+  ANTENNA_2411/DIODE
+ _17087_/Q
+  u_sram_inst/din[31]
+ _17088_/Q
+  u_sram_data/din[30]
+  u_sram_inst/din[30]
+  ANTENNA_560/DIODE
+  ANTENNA_561/DIODE
+  ANTENNA_562/DIODE
+  ANTENNA_563/DIODE
+  ANTENNA_564/DIODE
+  ANTENNA_565/DIODE
+  ANTENNA_566/DIODE
+  ANTENNA_567/DIODE
+  ANTENNA_568/DIODE
+  ANTENNA_569/DIODE
+  ANTENNA_570/DIODE
+  ANTENNA_571/DIODE
+  ANTENNA_572/DIODE
+  ANTENNA_573/DIODE
+  ANTENNA_574/DIODE
+  ANTENNA_575/DIODE
+  ANTENNA_576/DIODE
+  ANTENNA_577/DIODE
+  ANTENNA_578/DIODE
+  ANTENNA_579/DIODE
+ _17089_/Q
+  u_sram_data/din[29]
+  u_sram_inst/din[29]
+  ANTENNA_1060/DIODE
+  ANTENNA_1061/DIODE
+  ANTENNA_1062/DIODE
+  ANTENNA_1063/DIODE
+  ANTENNA_1064/DIODE
+  ANTENNA_1065/DIODE
+  ANTENNA_1066/DIODE
+  ANTENNA_1067/DIODE
+  ANTENNA_1068/DIODE
+  ANTENNA_1069/DIODE
+  ANTENNA_1070/DIODE
+  ANTENNA_1071/DIODE
+  ANTENNA_1072/DIODE
+  ANTENNA_1073/DIODE
+  ANTENNA_1074/DIODE
+  ANTENNA_1075/DIODE
+  ANTENNA_1076/DIODE
+  ANTENNA_1077/DIODE
+  ANTENNA_1078/DIODE
+  ANTENNA_1079/DIODE
+ _17090_/Q
+  u_sram_data/din[28]
+  u_sram_inst/din[28]
+  ANTENNA_1208/DIODE
+  ANTENNA_1209/DIODE
+  ANTENNA_1210/DIODE
+  ANTENNA_1211/DIODE
+  ANTENNA_1212/DIODE
+  ANTENNA_1213/DIODE
+  ANTENNA_1214/DIODE
+  ANTENNA_1215/DIODE
+  ANTENNA_1216/DIODE
+  ANTENNA_1217/DIODE
+ _17091_/Q
+  u_sram_data/din[27]
+  u_sram_inst/din[27]
+ _17092_/Q
+  u_sram_data/din[26]
+  u_sram_inst/din[26]
+ _17093_/Q
+  u_sram_data/din[25]
+  u_sram_inst/din[25]
+  ANTENNA_1328/DIODE
+  ANTENNA_1329/DIODE
+  ANTENNA_1330/DIODE
+  ANTENNA_1331/DIODE
+  ANTENNA_1332/DIODE
+  ANTENNA_1333/DIODE
+  ANTENNA_1334/DIODE
+  ANTENNA_1335/DIODE
+  ANTENNA_1336/DIODE
+  ANTENNA_1337/DIODE
+  ANTENNA_1338/DIODE
+  ANTENNA_1339/DIODE
+  ANTENNA_1340/DIODE
+  ANTENNA_1341/DIODE
+  ANTENNA_1342/DIODE
+  ANTENNA_1343/DIODE
+  ANTENNA_1344/DIODE
+  ANTENNA_1345/DIODE
+  ANTENNA_1346/DIODE
+  ANTENNA_1347/DIODE
+ _17094_/Q
+  u_sram_data/din[24]
+  u_sram_inst/din[24]
+ _17095_/Q
+  u_sram_data/din[23]
+  u_sram_inst/din[23]
+  ANTENNA_1396/DIODE
+  ANTENNA_1397/DIODE
+  ANTENNA_1398/DIODE
+  ANTENNA_1399/DIODE
+  ANTENNA_1400/DIODE
+  ANTENNA_1401/DIODE
+  ANTENNA_1402/DIODE
+  ANTENNA_1403/DIODE
+  ANTENNA_1404/DIODE
+  ANTENNA_1405/DIODE
+  ANTENNA_1406/DIODE
+ _17096_/Q
+  u_sram_data/din[22]
+  u_sram_inst/din[22]
+ _17097_/Q
+  u_sram_data/din[21]
+  u_sram_inst/din[21]
+ _17098_/Q
+  u_sram_data/din[20]
+  u_sram_inst/din[20]
+  ANTENNA_200/DIODE
+  ANTENNA_201/DIODE
+  ANTENNA_202/DIODE
+  ANTENNA_203/DIODE
+  ANTENNA_204/DIODE
+  ANTENNA_205/DIODE
+  ANTENNA_206/DIODE
+  ANTENNA_207/DIODE
+  ANTENNA_208/DIODE
+  ANTENNA_209/DIODE
+  ANTENNA_210/DIODE
+  ANTENNA_211/DIODE
+  ANTENNA_212/DIODE
+  ANTENNA_213/DIODE
+  ANTENNA_214/DIODE
+  ANTENNA_215/DIODE
+  ANTENNA_216/DIODE
+  ANTENNA_217/DIODE
+  ANTENNA_218/DIODE
+  ANTENNA_219/DIODE
+  ANTENNA_220/DIODE
+  ANTENNA_221/DIODE
+ _17099_/Q
+  u_sram_data/din[19]
+  u_sram_inst/din[19]
+ _17100_/Q
+  u_sram_data/din[18]
+  u_sram_inst/din[18]
+  ANTENNA_288/DIODE
+  ANTENNA_289/DIODE
+  ANTENNA_290/DIODE
+  ANTENNA_291/DIODE
+  ANTENNA_292/DIODE
+  ANTENNA_293/DIODE
+  ANTENNA_294/DIODE
+  ANTENNA_295/DIODE
+  ANTENNA_296/DIODE
+  ANTENNA_297/DIODE
+  ANTENNA_298/DIODE
+  ANTENNA_299/DIODE
+  ANTENNA_300/DIODE
+  ANTENNA_301/DIODE
+  ANTENNA_302/DIODE
+  ANTENNA_303/DIODE
+  ANTENNA_304/DIODE
+  ANTENNA_305/DIODE
+  ANTENNA_306/DIODE
+  ANTENNA_307/DIODE
+  ANTENNA_308/DIODE
+  ANTENNA_309/DIODE
+ _17101_/Q
+  u_sram_data/din[17]
+  u_sram_inst/din[17]
+  ANTENNA_332/DIODE
+  ANTENNA_333/DIODE
+  ANTENNA_334/DIODE
+  ANTENNA_335/DIODE
+  ANTENNA_336/DIODE
+  ANTENNA_337/DIODE
+  ANTENNA_338/DIODE
+  ANTENNA_339/DIODE
+  ANTENNA_340/DIODE
+  ANTENNA_341/DIODE
+  ANTENNA_342/DIODE
+  ANTENNA_343/DIODE
+  ANTENNA_344/DIODE
+  ANTENNA_345/DIODE
+  ANTENNA_346/DIODE
+  ANTENNA_347/DIODE
+  ANTENNA_348/DIODE
+  ANTENNA_349/DIODE
+  ANTENNA_350/DIODE
+  ANTENNA_351/DIODE
+  ANTENNA_352/DIODE
+  ANTENNA_353/DIODE
+ _17102_/Q
+  u_sram_data/din[16]
+  u_sram_inst/din[16]
+  ANTENNA_387/DIODE
+  ANTENNA_388/DIODE
+  ANTENNA_389/DIODE
+  ANTENNA_390/DIODE
+  ANTENNA_391/DIODE
+  ANTENNA_392/DIODE
+  ANTENNA_393/DIODE
+  ANTENNA_394/DIODE
+  ANTENNA_395/DIODE
+  ANTENNA_396/DIODE
+  ANTENNA_397/DIODE
+ _17103_/Q
+  u_sram_data/din[15]
+  u_sram_inst/din[15]
+  ANTENNA_420/DIODE
+  ANTENNA_421/DIODE
+  ANTENNA_422/DIODE
+  ANTENNA_423/DIODE
+  ANTENNA_424/DIODE
+  ANTENNA_425/DIODE
+  ANTENNA_426/DIODE
+  ANTENNA_427/DIODE
+  ANTENNA_428/DIODE
+  ANTENNA_429/DIODE
+  ANTENNA_430/DIODE
+ _17104_/Q
+  u_sram_data/din[14]
+  u_sram_inst/din[14]
+ _17105_/Q
+  u_sram_data/din[13]
+ _17106_/Q
+  u_sram_data/din[12]
+  u_sram_inst/din[12]
+  ANTENNA_519/DIODE
+  ANTENNA_520/DIODE
+  ANTENNA_521/DIODE
+  ANTENNA_522/DIODE
+  ANTENNA_523/DIODE
+  ANTENNA_524/DIODE
+  ANTENNA_525/DIODE
+  ANTENNA_526/DIODE
+  ANTENNA_527/DIODE
+  ANTENNA_528/DIODE
+  ANTENNA_529/DIODE
+ _17107_/Q
+  u_sram_data/din[11]
+  u_sram_inst/din[11]
+  ANTENNA_602/DIODE
+  ANTENNA_603/DIODE
+  ANTENNA_604/DIODE
+  ANTENNA_605/DIODE
+  ANTENNA_606/DIODE
+  ANTENNA_607/DIODE
+  ANTENNA_608/DIODE
+  ANTENNA_609/DIODE
+  ANTENNA_610/DIODE
+  ANTENNA_611/DIODE
+  ANTENNA_612/DIODE
+  ANTENNA_613/DIODE
+  ANTENNA_614/DIODE
+  ANTENNA_615/DIODE
+  ANTENNA_616/DIODE
+  ANTENNA_617/DIODE
+  ANTENNA_618/DIODE
+  ANTENNA_619/DIODE
+  ANTENNA_620/DIODE
+  ANTENNA_621/DIODE
+  ANTENNA_622/DIODE
+  ANTENNA_623/DIODE
+ _17108_/Q
+  u_sram_data/din[10]
+  u_sram_inst/din[10]
+  ANTENNA_646/DIODE
+  ANTENNA_647/DIODE
+  ANTENNA_648/DIODE
+  ANTENNA_649/DIODE
+  ANTENNA_650/DIODE
+  ANTENNA_651/DIODE
+  ANTENNA_652/DIODE
+  ANTENNA_653/DIODE
+  ANTENNA_654/DIODE
+  ANTENNA_655/DIODE
+  ANTENNA_656/DIODE
+  ANTENNA_657/DIODE
+  ANTENNA_658/DIODE
+  ANTENNA_659/DIODE
+  ANTENNA_660/DIODE
+  ANTENNA_661/DIODE
+  ANTENNA_662/DIODE
+  ANTENNA_663/DIODE
+  ANTENNA_664/DIODE
+  ANTENNA_665/DIODE
+  ANTENNA_666/DIODE
+  ANTENNA_667/DIODE
+ _17109_/Q
+  u_sram_data/din[9]
+  u_sram_inst/din[9]
+  ANTENNA_690/DIODE
+  ANTENNA_691/DIODE
+  ANTENNA_692/DIODE
+  ANTENNA_693/DIODE
+  ANTENNA_694/DIODE
+  ANTENNA_695/DIODE
+  ANTENNA_696/DIODE
+  ANTENNA_697/DIODE
+  ANTENNA_698/DIODE
+  ANTENNA_699/DIODE
+  ANTENNA_700/DIODE
+  ANTENNA_701/DIODE
+  ANTENNA_702/DIODE
+  ANTENNA_703/DIODE
+  ANTENNA_704/DIODE
+  ANTENNA_705/DIODE
+  ANTENNA_706/DIODE
+  ANTENNA_707/DIODE
+  ANTENNA_708/DIODE
+  ANTENNA_709/DIODE
+  ANTENNA_710/DIODE
+  ANTENNA_711/DIODE
+ _17110_/Q
+  u_sram_data/din[8]
+  u_sram_inst/din[8]
+  ANTENNA_734/DIODE
+  ANTENNA_735/DIODE
+  ANTENNA_736/DIODE
+  ANTENNA_737/DIODE
+  ANTENNA_738/DIODE
+  ANTENNA_739/DIODE
+  ANTENNA_740/DIODE
+  ANTENNA_741/DIODE
+  ANTENNA_742/DIODE
+  ANTENNA_743/DIODE
+  ANTENNA_744/DIODE
+  ANTENNA_745/DIODE
+  ANTENNA_746/DIODE
+  ANTENNA_747/DIODE
+  ANTENNA_748/DIODE
+  ANTENNA_749/DIODE
+  ANTENNA_750/DIODE
+  ANTENNA_751/DIODE
+  ANTENNA_752/DIODE
+  ANTENNA_753/DIODE
+  ANTENNA_754/DIODE
+  ANTENNA_755/DIODE
+ _17111_/Q
+  u_sram_data/din[7]
+  u_sram_inst/din[7]
+  ANTENNA_778/DIODE
+  ANTENNA_779/DIODE
+  ANTENNA_780/DIODE
+  ANTENNA_781/DIODE
+  ANTENNA_782/DIODE
+  ANTENNA_783/DIODE
+  ANTENNA_784/DIODE
+  ANTENNA_785/DIODE
+  ANTENNA_786/DIODE
+  ANTENNA_787/DIODE
+  ANTENNA_788/DIODE
+ _17112_/Q
+  u_sram_data/din[6]
+  u_sram_inst/din[6]
+  ANTENNA_822/DIODE
+  ANTENNA_823/DIODE
+  ANTENNA_824/DIODE
+  ANTENNA_825/DIODE
+  ANTENNA_826/DIODE
+  ANTENNA_827/DIODE
+  ANTENNA_828/DIODE
+  ANTENNA_829/DIODE
+  ANTENNA_830/DIODE
+  ANTENNA_831/DIODE
+  ANTENNA_832/DIODE
+  ANTENNA_833/DIODE
+  ANTENNA_834/DIODE
+  ANTENNA_835/DIODE
+  ANTENNA_836/DIODE
+  ANTENNA_837/DIODE
+  ANTENNA_838/DIODE
+  ANTENNA_839/DIODE
+  ANTENNA_840/DIODE
+  ANTENNA_841/DIODE
+  ANTENNA_842/DIODE
+  ANTENNA_843/DIODE
+ _17113_/Q
+  u_sram_data/din[5]
+  u_sram_inst/din[5]
+  ANTENNA_877/DIODE
+  ANTENNA_878/DIODE
+  ANTENNA_879/DIODE
+  ANTENNA_880/DIODE
+  ANTENNA_881/DIODE
+  ANTENNA_882/DIODE
+  ANTENNA_883/DIODE
+  ANTENNA_884/DIODE
+  ANTENNA_885/DIODE
+  ANTENNA_886/DIODE
+  ANTENNA_887/DIODE
+ _17114_/Q
+  u_sram_data/din[4]
+  u_sram_inst/din[4]
+  ANTENNA_920/DIODE
+  ANTENNA_921/DIODE
+  ANTENNA_922/DIODE
+  ANTENNA_923/DIODE
+  ANTENNA_924/DIODE
+  ANTENNA_925/DIODE
+  ANTENNA_926/DIODE
+  ANTENNA_927/DIODE
+  ANTENNA_928/DIODE
+  ANTENNA_929/DIODE
+  ANTENNA_930/DIODE
+ _17115_/Q
+  u_sram_data/din[3]
+  u_sram_inst/din[3]
+  ANTENNA_964/DIODE
+  ANTENNA_965/DIODE
+  ANTENNA_966/DIODE
+  ANTENNA_967/DIODE
+  ANTENNA_968/DIODE
+  ANTENNA_969/DIODE
+  ANTENNA_970/DIODE
+  ANTENNA_971/DIODE
+  ANTENNA_972/DIODE
+  ANTENNA_973/DIODE
+  ANTENNA_974/DIODE
+  ANTENNA_975/DIODE
+  ANTENNA_976/DIODE
+  ANTENNA_977/DIODE
+  ANTENNA_978/DIODE
+  ANTENNA_979/DIODE
+  ANTENNA_980/DIODE
+  ANTENNA_981/DIODE
+  ANTENNA_982/DIODE
+  ANTENNA_983/DIODE
+  ANTENNA_984/DIODE
+  ANTENNA_985/DIODE
+ _17116_/Q
+  u_sram_data/din[2]
+  u_sram_inst/din[2]
+  ANTENNA_1008/DIODE
+  ANTENNA_1009/DIODE
+  ANTENNA_1010/DIODE
+  ANTENNA_1011/DIODE
+  ANTENNA_1012/DIODE
+  ANTENNA_1013/DIODE
+  ANTENNA_1014/DIODE
+  ANTENNA_1015/DIODE
+  ANTENNA_1016/DIODE
+  ANTENNA_1017/DIODE
+  ANTENNA_1018/DIODE
+  ANTENNA_1019/DIODE
+  ANTENNA_1020/DIODE
+  ANTENNA_1021/DIODE
+  ANTENNA_1022/DIODE
+  ANTENNA_1023/DIODE
+  ANTENNA_1024/DIODE
+  ANTENNA_1025/DIODE
+  ANTENNA_1026/DIODE
+  ANTENNA_1027/DIODE
+  ANTENNA_1028/DIODE
+  ANTENNA_1029/DIODE
+ _17117_/Q
+  u_sram_data/din[1]
+  u_sram_inst/din[1]
+  ANTENNA_1102/DIODE
+  ANTENNA_1103/DIODE
+  ANTENNA_1104/DIODE
+  ANTENNA_1105/DIODE
+  ANTENNA_1106/DIODE
+  ANTENNA_1107/DIODE
+  ANTENNA_1108/DIODE
+  ANTENNA_1109/DIODE
+  ANTENNA_1110/DIODE
+  ANTENNA_1111/DIODE
+  ANTENNA_1112/DIODE
+  ANTENNA_1113/DIODE
+  ANTENNA_1114/DIODE
+  ANTENNA_1115/DIODE
+  ANTENNA_1116/DIODE
+  ANTENNA_1117/DIODE
+  ANTENNA_1118/DIODE
+  ANTENNA_1119/DIODE
+  ANTENNA_1120/DIODE
+  ANTENNA_1121/DIODE
+  ANTENNA_1122/DIODE
+  ANTENNA_1123/DIODE
+ _17118_/Q
+  u_sram_data/din[0]
+  u_sram_inst/din[0]
+ load_slew10/X
+  u_sram_inst/addr[6]
+ load_slew11/X
+  u_sram_inst/addr[7]
+ load_slew2/X
+  u_sram_inst/din[13]
+ load_slew3/X
+  u_sram_data/din[31]
+  ANTENNA_2352/DIODE
+ load_slew4/X
+  u_sram_data/wmask[0]
+ load_slew5/X
+  u_sram_inst/wmask[3]
+ load_slew6/X
+  u_sram_inst/addr[2]
+ load_slew7/X
+  u_sram_inst/addr[3]
+ load_slew8/X
+  u_sram_inst/addr[4]
+ load_slew9/X
+  u_sram_inst/addr[5]
+ max_cap30/X
+  u_sram_inst/wmask[1]
+ max_cap31/X
+  u_sram_inst/wmask[2]
+ u_sram_data_38/LO
+  u_sram_data/addr[9]
+ u_sram_data_39/LO
+  u_sram_data/addr[8]
+ u_sram_inst_40/LO
+  u_sram_inst/addr[9]
+ u_sram_inst_41/LO
+  u_sram_inst/addr[8]
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 131
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================

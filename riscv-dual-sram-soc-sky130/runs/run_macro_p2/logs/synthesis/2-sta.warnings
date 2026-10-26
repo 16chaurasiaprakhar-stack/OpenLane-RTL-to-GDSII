@@ -1,0 +1,2 @@
+Warning: /openlane/designs/soc_subsystem_sky130/runs/run_macro_p2/results/synthesis/soc_top.v line 63685, module sky130_sram_1k not found. Creating black box for u_sram_data.
+[WARNING] Did not save OpenROAD database!

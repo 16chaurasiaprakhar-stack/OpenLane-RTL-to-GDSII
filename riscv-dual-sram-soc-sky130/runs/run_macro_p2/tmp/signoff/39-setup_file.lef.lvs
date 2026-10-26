@@ -1,0 +1,1 @@
+lvs {/openlane/designs/soc_subsystem_sky130/runs/run_macro_p2/results/signoff/soc_top.spice soc_top} {/openlane/designs/soc_subsystem_sky130/runs/run_macro_p2/tmp/signoff/36-soc_top.pnl.v soc_top} /home/lab-user/.volare/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/soc_subsystem_sky130/runs/run_macro_p2/logs/signoff/39-soc_top.lef.lvs.log -json

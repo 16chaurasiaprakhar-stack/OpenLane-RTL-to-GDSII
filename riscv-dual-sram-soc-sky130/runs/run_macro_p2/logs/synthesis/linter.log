@@ -1,0 +1,227 @@
+%Warning-MODDUP: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:5:8: Duplicate declaration of module: 'sky130_sram_1k'
+    5 | module sky130_sram_1k (
+      |        ^~~~~~~~~~~~~~
+                 /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:5:8: ... Location of original declaration
+    5 | module sky130_sram_1k (
+      |        ^~~~~~~~~~~~~~
+                 ... For warning description see https://verilator.org/warn/MODDUP?v=5.009
+                 ... Use "/* verilator lint_off MODDUP */" and lint_on around source to disable this message.
+%Warning-PINCONNECTEMPTY: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:79:10: Cell pin connected by name with empty reference: 'eoi'
+   79 |         .eoi         (),
+      |          ^~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:80:10: Cell pin connected by name with empty reference: 'trace_valid'
+   80 |         .trace_valid (),
+      |          ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:81:10: Cell pin connected by name with empty reference: 'trace_data'
+   81 |         .trace_data  ()
+      |          ^~~~~~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'mem_la_read'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'mem_la_write'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'mem_la_addr'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'mem_la_wdata'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'mem_la_wstrb'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_valid'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_insn'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_rs1'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_rs2'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_wr'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_rd'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_wait'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-PINMISSING: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:67:7: Cell has missing pin: 'pcpi_ready'
+   67 |     ) u_core (
+      |       ^~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/axi_xbar.v:9:19: Signal is not used: 'mem_instr'
+                                                                                 : ... In instance soc_top.u_axi_xbar
+    9 |     input         mem_instr,
+      |                   ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:10:11: Signal is not used: 'clk'
+                                                                                     : ... In instance soc_top.u_sram_data
+   10 |     input clk,
+      |           ^~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:11:11: Signal is not used: 'csb'
+                                                                                     : ... In instance soc_top.u_sram_data
+   11 |     input csb,
+      |           ^~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:12:11: Signal is not used: 'web'
+                                                                                     : ... In instance soc_top.u_sram_data
+   12 |     input web,
+      |           ^~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:13:17: Signal is not used: 'wmask'
+                                                                                     : ... In instance soc_top.u_sram_data
+   13 |     input [3:0] wmask,
+      |                 ^~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:14:17: Signal is not used: 'addr'
+                                                                                     : ... In instance soc_top.u_sram_data
+   14 |     input [9:0] addr,
+      |                 ^~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:15:18: Signal is not used: 'din'
+                                                                                     : ... In instance soc_top.u_sram_data
+   15 |     input [31:0] din,
+      |                  ^~~
+%Warning-UNDRIVEN: /openlane/designs/soc_subsystem_sky130/src/sram_1kb_bb.v:16:19: Signal is not driven: 'dout'
+                                                                                 : ... In instance soc_top.u_sram_data
+   16 |     output [31:0] dout
+      |                   ^~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:181:13: Signal is not used: 'dbg_insn_addr'
+                                                                                   : ... In instance soc_top.u_core
+  181 |  reg [31:0] dbg_insn_addr;
+      |             ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:183:7: Signal is not used: 'dbg_mem_valid'
+                                                                                  : ... In instance soc_top.u_core
+  183 |  wire dbg_mem_valid = mem_valid;
+      |       ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:184:7: Signal is not used: 'dbg_mem_instr'
+                                                                                  : ... In instance soc_top.u_core
+  184 |  wire dbg_mem_instr = mem_instr;
+      |       ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:185:7: Signal is not used: 'dbg_mem_ready'
+                                                                                  : ... In instance soc_top.u_core
+  185 |  wire dbg_mem_ready = mem_ready;
+      |       ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:186:14: Signal is not used: 'dbg_mem_addr'
+                                                                                   : ... In instance soc_top.u_core
+  186 |  wire [31:0] dbg_mem_addr  = mem_addr;
+      |              ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:187:14: Signal is not used: 'dbg_mem_wdata'
+                                                                                   : ... In instance soc_top.u_core
+  187 |  wire [31:0] dbg_mem_wdata = mem_wdata;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:188:14: Signal is not used: 'dbg_mem_wstrb'
+                                                                                   : ... In instance soc_top.u_core
+  188 |  wire [ 3:0] dbg_mem_wstrb = mem_wstrb;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:189:14: Signal is not used: 'dbg_mem_rdata'
+                                                                                   : ... In instance soc_top.u_core
+  189 |  wire [31:0] dbg_mem_rdata = mem_rdata;
+      |              ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:375:7: Signal is not used: 'mem_busy'
+                                                                                  : ... In instance soc_top.u_core
+  375 |  wire mem_busy = |{mem_do_prefetch, mem_do_rinst, mem_do_rdata, mem_do_wdata};
+      |       ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:696:14: Signal is not used: 'dbg_rs1val'
+                                                                                   : ... In instance soc_top.u_core
+  696 |   reg [31:0] dbg_rs1val;
+      |              ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:697:14: Signal is not used: 'dbg_rs2val'
+                                                                                   : ... In instance soc_top.u_core
+  697 |   reg [31:0] dbg_rs2val;
+      |              ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:698:7: Signal is not used: 'dbg_rs1val_valid'
+                                                                                  : ... In instance soc_top.u_core
+  698 |   reg dbg_rs1val_valid;
+      |       ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:699:7: Signal is not used: 'dbg_rs2val_valid'
+                                                                                  : ... In instance soc_top.u_core
+  699 |   reg dbg_rs2val_valid;
+      |       ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:769:6: Signal is not used: 'dbg_valid_insn'
+                                                                                  : ... In instance soc_top.u_core
+  769 |  reg dbg_valid_insn;
+      |      ^~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1184:15: Signal is not used: 'dbg_ascii_state'
+                                                                                    : ... In instance soc_top.u_core
+ 1184 |   reg [127:0] dbg_ascii_state;
+      |               ^~~~~~~~~~~~~~~
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1406:20: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1406 |   set_mem_do_rinst = 0;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1407:20: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1407 |   set_mem_do_rdata = 0;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1408:20: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1408 |   set_mem_do_wdata = 0;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1440:20: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1440 |   next_irq_pending = ENABLE_IRQ ? irq_pending & LATCHED_IRQ : 'bx;
+      |                    ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1495:16: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1495 |     current_pc = reg_next_pc;
+      |                ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1500:18: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1500 |       current_pc = latched_store ? (latched_stalu ? alu_out_q : reg_out) & ~1 : reg_next_pc;
+      |                  ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1507:18: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1507 |       current_pc = PROGADDR_IRQ;
+      |                  ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1513:24: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1513 |       next_irq_pending = next_irq_pending & irq_mask;
+      |                        ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1620:38: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1620 |         next_irq_pending[irq_ebreak] = 1;
+      |                                      ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1819:24: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1819 |       set_mem_do_rinst = 1;
+      |                        ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1870:24: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1870 |       set_mem_do_wdata = 1;
+      |                        ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1898:24: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1898 |       set_mem_do_rdata = 1;
+      |                        ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1474:21: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1474 |    next_irq_pending = 0;
+      |                     ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1916:21: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1916 |    next_irq_pending = next_irq_pending | irq;
+      |                     ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1926:37: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1926 |      next_irq_pending[irq_buserror] = 1;
+      |                                     ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1933:37: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1933 |      next_irq_pending[irq_buserror] = 1;
+      |                                     ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1941:36: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1941 |     next_irq_pending[irq_buserror] = 1;
+      |                                    ^
+%Warning-BLKSEQ: /openlane/designs/soc_subsystem_sky130/src/picorv32.v:1974:14: Blocking assignment '=' in sequential logic process
+                                                                              : ... Suggest using delayed assignment '<='
+ 1974 |   current_pc = 'bx;
+      |              ^
+%Warning-SYNCASYNCNET: /openlane/designs/soc_subsystem_sky130/src/soc_top.v:9:19: Signal flopped as both synchronous and async: 'resetn'
+                       /openlane/designs/soc_subsystem_sky130/src/axi_xbar.v:64:14: ... Location of async usage
+   64 |         if (!resetn) begin
+      |              ^~~~~~
+                       /openlane/designs/soc_subsystem_sky130/src/picorv32.v:391:8: ... Location of sync usage
+  391 |   if (!resetn) begin
+      |        ^~~~~~

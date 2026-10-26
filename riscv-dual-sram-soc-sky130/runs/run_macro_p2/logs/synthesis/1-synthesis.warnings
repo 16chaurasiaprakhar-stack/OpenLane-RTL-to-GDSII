@@ -1,0 +1,62 @@
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire soc_top.\trap is used but has no driver.
+Warning: Wire soc_top.\gpio_out [7] is used but has no driver.
+Warning: Wire soc_top.\gpio_out [6] is used but has no driver.
+Warning: Wire soc_top.\gpio_out [5] is used but has no driver.
+Warning: Wire soc_top.\gpio_out [4] is used but has no driver.
+Warning: Wire soc_top.\gpio_out [3] is used but has no driver.
+Warning: Wire soc_top.\gpio_out [2] is used but has no driver.
+Warning: Wire soc_top.\gpio_out [1] is used but has no driver.
+Warning: Wire soc_top.\gpio_out [0] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.sram_inst_csb is used but has no driver.
+Warning: Wire soc_top.$auto$hilomap.cc:47:hilomap_worker$44841 is used but has no driver.
+Warning: Wire soc_top.$auto$hilomap.cc:47:hilomap_worker$44839 is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wstrb[3] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wstrb[2] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wstrb[1] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wstrb[0] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.sram_data_web is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[31] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[30] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[29] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[28] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[27] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[26] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[25] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[24] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[23] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[22] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[21] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[20] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[19] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[18] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[17] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[16] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[15] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[14] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[13] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[12] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[11] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[10] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[9] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[8] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[7] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[6] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[5] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[4] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[3] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[2] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[1] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_wdata[0] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.sram_data_csb is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[9] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[8] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[7] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[6] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[5] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[4] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[3] is used but has no driver.
+Warning: Wire soc_top.\u_axi_xbar.mem_addr[2] is used but has no driver.
+Warning: Wire soc_top.$auto$hilomap.cc:47:hilomap_worker$44837 is used but has no driver.
+Warning: Wire soc_top.$auto$hilomap.cc:47:hilomap_worker$44835 is used but has no driver.
+Warnings: 60 unique messages, 60 total
