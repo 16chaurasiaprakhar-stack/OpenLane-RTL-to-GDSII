@@ -294,5 +294,4 @@ bash scripts/run_openlane.sh run_tapeout
 ```
 
 ---
-**Candidate:** Prakhar Chaurasia  
 **Specialization:** Physical Design, Static Timing Analysis & SoC Architecture
