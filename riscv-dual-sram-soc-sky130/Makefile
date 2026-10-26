@@ -1,7 +1,6 @@
 # ==============================================================================
 # Makefile: Macro-Dominated SoC Subsystem Implementation & Signoff
 # PDK: SkyWater 130nm (sky130_fd_sc_hd)
-# Target: Physical Design / STA Closure (NVIDIA, Qualcomm Standards)
 # ==============================================================================
 
 SHELL       := /bin/bash
