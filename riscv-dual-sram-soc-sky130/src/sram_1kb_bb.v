@@ -16,7 +16,7 @@ module sky130_sram_1k (
     output reg [31:0] dout
 );
 
-`ifndef SYNTHESIS
+`ifdef SYNTHESIS
     reg [31:0] mem [0:255];
     wire [7:0] word_addr = addr[9:2];
 
