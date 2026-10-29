@@ -270,10 +270,6 @@ bash scripts/run_openlane.sh run_tapeout
 ### Q1: Why did you place your SRAM macros on the die boundaries instead of the center?
 > **Answer:** Placing hard macros in the center fractures the standard cell core area into isolated islands. Any communication between logic blocks on opposing sides must traverse around the macro obstruction, which inflates net wirelength, causes severe congestion at macro corners, and degrades timing closure. Pushing macros to the outer perimeter preserves a single, contiguous core region for standard cells. Furthermore, I oriented the macros with pins facing inward toward the core channel (`N` for left macro, `FN` for right macro), minimizing interconnect flyline length directly into the memory bus interface.
 
-### Q2: How did you calculate your macro halo width, and what happens if you set it to zero?
-> **Answer:** I budgeted a 10 µm placement and PDN halo on all four sides. If the halo is omitted (zero), the placer positions dense combinational standard cells immediately against the macro boundary. This induces two fatal failure modes:
-> 1. Standard cell pins occupy access tracks to SRAM pins, causing detailed routing pin-access DRC violations.
-> 2. Standard cell power rails short directly against the macro's dedicated power ring. The 10 µm halo provides a clean keepout zone for power strap drops, via arrays, and pin escape routing.
 
 
 
