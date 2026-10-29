@@ -274,7 +274,7 @@ bash scripts/run_openlane.sh run_tapeout
 
 ---
 
-## 7. Resume & Portfolio Bullet Points
+## 7.Bullet Points
 
 ```markdown
 • SoC Subsystem Physical Implementation (Sky130 PDK): Implemented an end-to-end RTL-to-GDSII flow for a 32-bit RISC-V core integrated with two 1KB OpenRAM dual-port SRAM macros using OpenLane, OpenROAD, and Magic.
