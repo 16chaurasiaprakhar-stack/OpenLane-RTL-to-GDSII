@@ -265,10 +265,7 @@ bash scripts/run_openlane.sh run_tapeout
 
 ---
 
-## 6. Tier-1 Technical Interview Defense (NVIDIA / Qualcomm)
 
-### Q1: Why did you place your SRAM macros on the die boundaries instead of the center?
-> **Answer:** Placing hard macros in the center fractures the standard cell core area into isolated islands. Any communication between logic blocks on opposing sides must traverse around the macro obstruction, which inflates net wirelength, causes severe congestion at macro corners, and degrades timing closure. Pushing macros to the outer perimeter preserves a single, contiguous core region for standard cells. Furthermore, I oriented the macros with pins facing inward toward the core channel (`N` for left macro, `FN` for right macro), minimizing interconnect flyline length directly into the memory bus interface.
 
 
 
