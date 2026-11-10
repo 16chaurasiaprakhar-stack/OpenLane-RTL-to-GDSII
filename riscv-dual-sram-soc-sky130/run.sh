@@ -1,5 +1,5 @@
 #!/bin/bash
-# Master One-Click Launcher for Macro-Dominated SoC Subsystem
+# Master One-Click Launcher for Macro-Dominated SoC Subsystem 
 set -e
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
